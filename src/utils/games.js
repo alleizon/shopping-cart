@@ -13,6 +13,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2013-09-17",
     fakePrice: 22.99,
+    id: 0,
   },
   {
     backgroundImage:
@@ -28,6 +29,7 @@ const games = [
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2015-05-18",
     fakePrice: 23.99,
+    id: 1,
   },
   {
     backgroundImage:
@@ -43,6 +45,7 @@ const games = [
     newGenres: ["Shooter", "Puzzle"],
     released: "2011-04-18",
     fakePrice: 38.99,
+    id: 2,
   },
   {
     backgroundImage:
@@ -58,6 +61,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2013-03-05",
     fakePrice: 21.99,
+    id: 3,
   },
   {
     backgroundImage:
@@ -73,6 +77,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2012-08-21",
     fakePrice: 45.99,
+    id: 4,
   },
   {
     backgroundImage:
@@ -88,6 +93,7 @@ const games = [
     newGenres: ["Adventure", "Puzzle"],
     released: "2007-10-09",
     fakePrice: 30.99,
+    id: 5,
   },
   {
     backgroundImage:
@@ -103,6 +109,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2009-11-17",
     fakePrice: 25.99,
+    id: 6,
   },
   {
     backgroundImage:
@@ -118,6 +125,7 @@ const games = [
     newGenres: ["Action", "RPG"],
     released: "2011-11-11",
     fakePrice: 19.99,
+    id: 7,
   },
   {
     backgroundImage:
@@ -133,6 +141,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2013-03-26",
     fakePrice: 50.99,
+    id: 8,
   },
   {
     backgroundImage:
@@ -148,6 +157,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2018-10-26",
     fakePrice: 24.99,
+    id: 9,
   },
   {
     backgroundImage:
@@ -163,6 +173,7 @@ const games = [
     newGenres: ["Adventure"],
     released: "2015-01-29",
     fakePrice: 42.99,
+    id: 10,
   },
   {
     backgroundImage:
@@ -178,6 +189,7 @@ const games = [
     newGenres: ["Action", "Shooter", "RPG"],
     released: "2012-09-18",
     fakePrice: 42.99,
+    id: 11,
   },
   {
     backgroundImage:
@@ -193,6 +205,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2004-11-16",
     fakePrice: 55.99,
+    id: 12,
   },
   {
     backgroundImage:
@@ -208,6 +221,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2007-08-21",
     fakePrice: 40.99,
+    id: 13,
   },
   {
     backgroundImage:
@@ -223,6 +237,7 @@ const games = [
     newGenres: ["Adventure", "Indie", "Puzzle", "Platformer"],
     released: "2010-07-21",
     fakePrice: 36.99,
+    id: 14,
   },
   {
     backgroundImage:
@@ -238,6 +253,7 @@ const games = [
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2018-04-20",
     fakePrice: 58.99,
+    id: 15,
   },
   {
     backgroundImage:
@@ -253,6 +269,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Adventure", "Massively Multiplayer"],
     released: "2017-09-06",
     fakePrice: 21.99,
+    id: 16,
   },
   {
     backgroundImage:
@@ -268,6 +285,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2016-05-13",
     fakePrice: 45.99,
+    id: 17,
   },
   {
     backgroundImage:
@@ -283,6 +301,7 @@ const games = [
     newGenres: ["Action", "RPG"],
     released: "2015-11-09",
     fakePrice: 49.99,
+    id: 18,
   },
   {
     backgroundImage:
@@ -298,6 +317,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2007-10-10",
     fakePrice: 48.99,
+    id: 19,
   },
   {
     backgroundImage:
@@ -313,6 +333,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2013-08-13",
     fakePrice: 53.99,
+    id: 20,
   },
   {
     backgroundImage:
@@ -328,6 +349,7 @@ const games = [
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2017-02-28",
     fakePrice: 19.99,
+    id: 21,
   },
   {
     backgroundImage:
@@ -343,6 +365,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2008-04-29",
     fakePrice: 46.99,
+    id: 22,
   },
   {
     backgroundImage:
@@ -358,6 +381,7 @@ const games = [
     newGenres: ["Sports", "Racing", "Indie"],
     released: "2015-07-07",
     fakePrice: 53.99,
+    id: 23,
   },
   {
     backgroundImage:
@@ -373,6 +397,7 @@ const games = [
     newGenres: ["Action", "Massively Multiplayer"],
     released: "2013-07-09",
     fakePrice: 35.99,
+    id: 24,
   },
   {
     backgroundImage:
@@ -388,6 +413,7 @@ const games = [
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2020-12-10",
     fakePrice: 22.99,
+    id: 25,
   },
   {
     backgroundImage:
@@ -403,6 +429,7 @@ const games = [
     newGenres: ["Action", "Indie", "Platformer"],
     released: "2011-05-16",
     fakePrice: 48.99,
+    id: 26,
   },
   {
     backgroundImage:
@@ -418,6 +445,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Massively Multiplayer"],
     released: "2013-03-25",
     fakePrice: 25.99,
+    id: 27,
   },
   {
     backgroundImage:
@@ -433,6 +461,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2010-03-16",
     fakePrice: 32.99,
+    id: 28,
   },
   {
     backgroundImage:
@@ -448,6 +477,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2015-09-01",
     fakePrice: 48.99,
+    id: 29,
   },
   {
     backgroundImage:
@@ -463,6 +493,7 @@ const games = [
     newGenres: ["Action"],
     released: "2015-11-10",
     fakePrice: 36.99,
+    id: 30,
   },
   {
     backgroundImage:
@@ -478,6 +509,7 @@ const games = [
     newGenres: ["Action"],
     released: "2015-06-23",
     fakePrice: 31.99,
+    id: 31,
   },
   {
     backgroundImage:
@@ -493,6 +525,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2012-04-23",
     fakePrice: 40.99,
+    id: 32,
   },
   {
     backgroundImage:
@@ -508,6 +541,7 @@ const games = [
     newGenres: ["RPG"],
     released: "2012-04-16",
     fakePrice: 34.99,
+    id: 33,
   },
   {
     backgroundImage:
@@ -523,6 +557,7 @@ const games = [
     newGenres: ["Action"],
     released: "2005-10-27",
     fakePrice: 28.99,
+    id: 34,
   },
   {
     backgroundImage:
@@ -538,6 +573,7 @@ const games = [
     newGenres: ["Action", "RPG"],
     released: "2014-09-30",
     fakePrice: 40.99,
+    id: 35,
   },
   {
     backgroundImage:
@@ -553,6 +589,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2004-10-26",
     fakePrice: 40.99,
+    id: 36,
   },
   {
     backgroundImage:
@@ -568,6 +605,7 @@ const games = [
     newGenres: ["Action", "RPG"],
     released: "2008-09-16",
     fakePrice: 25.99,
+    id: 37,
   },
   {
     backgroundImage:
@@ -583,6 +621,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2006-06-01",
     fakePrice: 45.99,
+    id: 38,
   },
   {
     backgroundImage:
@@ -598,6 +637,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2010-02-09",
     fakePrice: 43.99,
+    id: 39,
   },
   {
     backgroundImage:
@@ -613,6 +653,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Puzzle"],
     released: "2007-10-09",
     fakePrice: 35.99,
+    id: 40,
   },
   {
     backgroundImage:
@@ -628,6 +669,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Adventure", "Massively Multiplayer"],
     released: "2019-02-04",
     fakePrice: 52.99,
+    id: 41,
   },
   {
     backgroundImage:
@@ -643,6 +685,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Simulation"],
     released: "2016-03-11",
     fakePrice: 28.99,
+    id: 42,
   },
   {
     backgroundImage:
@@ -658,6 +701,7 @@ const games = [
     newGenres: ["Action", "Indie", "Platformer"],
     released: "2017-02-23",
     fakePrice: 41.99,
+    id: 43,
   },
   {
     backgroundImage:
@@ -673,6 +717,7 @@ const games = [
     newGenres: ["Action"],
     released: "2008-11-11",
     fakePrice: 30.99,
+    id: 44,
   },
   {
     backgroundImage:
@@ -688,6 +733,7 @@ const games = [
     newGenres: ["Action", "Platformer"],
     released: "2017-04-27",
     fakePrice: 52.99,
+    id: 45,
   },
   {
     backgroundImage:
@@ -703,6 +749,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Arcade", "Indie"],
     released: "2012-10-22",
     fakePrice: 43.99,
+    id: 46,
   },
   {
     backgroundImage:
@@ -718,6 +765,7 @@ const games = [
     newGenres: ["Action", "RPG"],
     released: "2016-04-11",
     fakePrice: 27.99,
+    id: 47,
   },
   {
     backgroundImage:
@@ -733,6 +781,7 @@ const games = [
     newGenres: ["Action", "Adventure", "Indie"],
     released: "2013-09-03",
     fakePrice: 26.99,
+    id: 48,
   },
   {
     backgroundImage:
@@ -748,6 +797,7 @@ const games = [
     newGenres: ["Action", "RPG"],
     released: "2016-08-22",
     fakePrice: 40.99,
+    id: 49,
   },
   {
     backgroundImage:
@@ -763,6 +813,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2012-06-26",
     fakePrice: 28.99,
+    id: 50,
   },
   {
     backgroundImage:
@@ -778,6 +829,7 @@ const games = [
     newGenres: ["Shooter"],
     released: "2016-09-15",
     fakePrice: 58.99,
+    id: 51,
   },
   {
     backgroundImage:
@@ -793,6 +845,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2018-09-07",
     fakePrice: 59.99,
+    id: 52,
   },
   {
     backgroundImage:
@@ -808,6 +861,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2012-11-28",
     fakePrice: 46.99,
+    id: 53,
   },
   {
     backgroundImage:
@@ -823,6 +877,7 @@ const games = [
     newGenres: ["Action", "Adventure", "Indie"],
     released: "2010-09-08",
     fakePrice: 30.99,
+    id: 54,
   },
   {
     backgroundImage:
@@ -838,6 +893,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Adventure"],
     released: "2010-05-14",
     fakePrice: 48.99,
+    id: 55,
   },
   {
     backgroundImage:
@@ -853,6 +909,7 @@ const games = [
     newGenres: ["Action"],
     released: "2004-11-01",
     fakePrice: 52.99,
+    id: 56,
   },
   {
     backgroundImage:
@@ -868,6 +925,7 @@ const games = [
     newGenres: ["Action", "Adventure"],
     released: "2011-11-14",
     fakePrice: 44.99,
+    id: 57,
   },
   {
     backgroundImage:
@@ -883,6 +941,7 @@ const games = [
     newGenres: ["Action", "Shooter", "Puzzle", "Platformer"],
     released: "1998-11-19",
     fakePrice: 25.99,
+    id: 58,
   },
   {
     backgroundImage:
@@ -898,6 +957,7 @@ const games = [
     newGenres: ["Action", "Shooter"],
     released: "2014-05-19",
     fakePrice: 52.99,
+    id: 59,
   },
 ];
 
