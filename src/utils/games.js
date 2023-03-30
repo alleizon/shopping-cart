@@ -29,6 +29,7 @@ const games = [
       },
     ],
     released: "2013-09-17",
+    fakePrice: 22.99,
   },
   {
     backgroundImage:
@@ -68,6 +69,7 @@ const games = [
       },
     ],
     released: "2015-05-18",
+    fakePrice: 30.99,
   },
   {
     backgroundImage:
@@ -99,6 +101,7 @@ const games = [
       },
     ],
     released: "2011-04-18",
+    fakePrice: 40.99,
   },
   {
     backgroundImage:
@@ -130,6 +133,7 @@ const games = [
       },
     ],
     released: "2013-03-05",
+    fakePrice: 58.99,
   },
   {
     backgroundImage:
@@ -161,6 +165,7 @@ const games = [
       },
     ],
     released: "2012-08-21",
+    fakePrice: 36.99,
   },
   {
     backgroundImage:
@@ -192,6 +197,7 @@ const games = [
       },
     ],
     released: "2007-10-09",
+    fakePrice: 53.99,
   },
   {
     backgroundImage:
@@ -223,6 +229,7 @@ const games = [
       },
     ],
     released: "2009-11-17",
+    fakePrice: 39.99,
   },
   {
     backgroundImage:
@@ -254,6 +261,7 @@ const games = [
       },
     ],
     released: "2011-11-11",
+    fakePrice: 37.99,
   },
   {
     backgroundImage:
@@ -285,6 +293,7 @@ const games = [
       },
     ],
     released: "2013-03-26",
+    fakePrice: 43.99,
   },
   {
     backgroundImage:
@@ -316,6 +325,7 @@ const games = [
       },
     ],
     released: "2018-10-26",
+    fakePrice: 59.99,
   },
   {
     backgroundImage:
@@ -339,6 +349,7 @@ const games = [
       },
     ],
     released: "2015-01-29",
+    fakePrice: 27.99,
   },
   {
     backgroundImage:
@@ -378,6 +389,7 @@ const games = [
       },
     ],
     released: "2012-09-18",
+    fakePrice: 39.99,
   },
   {
     backgroundImage:
@@ -409,6 +421,7 @@ const games = [
       },
     ],
     released: "2004-11-16",
+    fakePrice: 55.99,
   },
   {
     backgroundImage:
@@ -440,6 +453,7 @@ const games = [
       },
     ],
     released: "2007-08-21",
+    fakePrice: 48.99,
   },
   {
     backgroundImage:
@@ -487,6 +501,7 @@ const games = [
       },
     ],
     released: "2010-07-21",
+    fakePrice: 36.99,
   },
   {
     backgroundImage:
@@ -526,6 +541,7 @@ const games = [
       },
     ],
     released: "2018-04-20",
+    fakePrice: 29.99,
   },
   {
     backgroundImage:
@@ -573,6 +589,7 @@ const games = [
       },
     ],
     released: "2017-09-06",
+    fakePrice: 23.99,
   },
   {
     backgroundImage:
@@ -604,6 +621,7 @@ const games = [
       },
     ],
     released: "2016-05-13",
+    fakePrice: 36.99,
   },
   {
     backgroundImage:
@@ -635,6 +653,7 @@ const games = [
       },
     ],
     released: "2015-11-09",
+    fakePrice: 46.99,
   },
   {
     backgroundImage:
@@ -666,6 +685,7 @@ const games = [
       },
     ],
     released: "2007-10-10",
+    fakePrice: 42.99,
   },
   {
     backgroundImage:
@@ -697,6 +717,7 @@ const games = [
       },
     ],
     released: "2013-08-13",
+    fakePrice: 19.99,
   },
   {
     backgroundImage:
@@ -736,6 +757,7 @@ const games = [
       },
     ],
     released: "2017-02-28",
+    fakePrice: 56.99,
   },
   {
     backgroundImage:
@@ -767,6 +789,7 @@ const games = [
       },
     ],
     released: "2008-04-29",
+    fakePrice: 32.99,
   },
   {
     backgroundImage:
@@ -806,6 +829,7 @@ const games = [
       },
     ],
     released: "2015-07-07",
+    fakePrice: 19.99,
   },
   {
     backgroundImage:
@@ -837,6 +861,7 @@ const games = [
       },
     ],
     released: "2013-07-09",
+    fakePrice: 33.99,
   },
   {
     backgroundImage:
@@ -876,6 +901,7 @@ const games = [
       },
     ],
     released: "2020-12-10",
+    fakePrice: 44.99,
   },
   {
     backgroundImage:
@@ -915,6 +941,7 @@ const games = [
       },
     ],
     released: "2011-05-16",
+    fakePrice: 29.99,
   },
   {
     backgroundImage:
@@ -954,6 +981,7 @@ const games = [
       },
     ],
     released: "2013-03-25",
+    fakePrice: 47.99,
   },
   {
     backgroundImage:
@@ -985,6 +1013,7 @@ const games = [
       },
     ],
     released: "2010-03-16",
+    fakePrice: 30.99,
   },
   {
     backgroundImage:
@@ -1016,6 +1045,7 @@ const games = [
       },
     ],
     released: "2015-09-01",
+    fakePrice: 46.99,
   },
   {
     backgroundImage:
@@ -1039,6 +1069,7 @@ const games = [
       },
     ],
     released: "2015-11-10",
+    fakePrice: 38.99,
   },
   {
     backgroundImage:
@@ -1062,6 +1093,7 @@ const games = [
       },
     ],
     released: "2015-06-23",
+    fakePrice: 44.99,
   },
   {
     backgroundImage:
@@ -1093,6 +1125,7 @@ const games = [
       },
     ],
     released: "2012-04-23",
+    fakePrice: 45.99,
   },
   {
     backgroundImage:
@@ -1116,6 +1149,7 @@ const games = [
       },
     ],
     released: "2012-04-16",
+    fakePrice: 42.99,
   },
   {
     backgroundImage:
@@ -1139,6 +1173,7 @@ const games = [
       },
     ],
     released: "2005-10-27",
+    fakePrice: 22.99,
   },
   {
     backgroundImage:
@@ -1170,6 +1205,7 @@ const games = [
       },
     ],
     released: "2014-09-30",
+    fakePrice: 34.99,
   },
   {
     backgroundImage:
@@ -1201,6 +1237,7 @@ const games = [
       },
     ],
     released: "2004-10-26",
+    fakePrice: 42.99,
   },
   {
     backgroundImage:
@@ -1232,6 +1269,7 @@ const games = [
       },
     ],
     released: "2008-09-16",
+    fakePrice: 35.99,
   },
   {
     backgroundImage:
@@ -1263,6 +1301,7 @@ const games = [
       },
     ],
     released: "2006-06-01",
+    fakePrice: 30.99,
   },
   {
     backgroundImage:
@@ -1294,6 +1333,7 @@ const games = [
       },
     ],
     released: "2010-02-09",
+    fakePrice: 32.99,
   },
   {
     backgroundImage:
@@ -1333,6 +1373,7 @@ const games = [
       },
     ],
     released: "2007-10-09",
+    fakePrice: 34.99,
   },
   {
     backgroundImage:
@@ -1380,6 +1421,7 @@ const games = [
       },
     ],
     released: "2019-02-04",
+    fakePrice: 47.99,
   },
   {
     backgroundImage:
@@ -1419,6 +1461,7 @@ const games = [
       },
     ],
     released: "2016-03-11",
+    fakePrice: 35.99,
   },
   {
     backgroundImage:
@@ -1458,6 +1501,7 @@ const games = [
       },
     ],
     released: "2017-02-23",
+    fakePrice: 31.99,
   },
   {
     backgroundImage:
@@ -1481,6 +1525,7 @@ const games = [
       },
     ],
     released: "2008-11-11",
+    fakePrice: 44.99,
   },
   {
     backgroundImage:
@@ -1512,6 +1557,7 @@ const games = [
       },
     ],
     released: "2017-04-27",
+    fakePrice: 32.99,
   },
   {
     backgroundImage:
@@ -1559,6 +1605,7 @@ const games = [
       },
     ],
     released: "2012-10-22",
+    fakePrice: 32.99,
   },
   {
     backgroundImage:
@@ -1590,6 +1637,7 @@ const games = [
       },
     ],
     released: "2016-04-11",
+    fakePrice: 42.99,
   },
   {
     backgroundImage:
@@ -1629,6 +1677,7 @@ const games = [
       },
     ],
     released: "2013-09-03",
+    fakePrice: 39.99,
   },
   {
     backgroundImage:
@@ -1660,6 +1709,7 @@ const games = [
       },
     ],
     released: "2016-08-22",
+    fakePrice: 35.99,
   },
   {
     backgroundImage:
@@ -1691,6 +1741,7 @@ const games = [
       },
     ],
     released: "2012-06-26",
+    fakePrice: 52.99,
   },
   {
     backgroundImage:
@@ -1714,6 +1765,7 @@ const games = [
       },
     ],
     released: "2016-09-15",
+    fakePrice: 41.99,
   },
   {
     backgroundImage:
@@ -1745,6 +1797,7 @@ const games = [
       },
     ],
     released: "2018-09-07",
+    fakePrice: 50.99,
   },
   {
     backgroundImage:
@@ -1776,6 +1829,7 @@ const games = [
       },
     ],
     released: "2012-11-28",
+    fakePrice: 54.99,
   },
   {
     backgroundImage:
@@ -1815,6 +1869,7 @@ const games = [
       },
     ],
     released: "2010-09-08",
+    fakePrice: 19.99,
   },
   {
     backgroundImage:
@@ -1854,6 +1909,7 @@ const games = [
       },
     ],
     released: "2010-05-14",
+    fakePrice: 46.99,
   },
   {
     backgroundImage:
@@ -1877,6 +1933,7 @@ const games = [
       },
     ],
     released: "2004-11-01",
+    fakePrice: 36.99,
   },
   {
     backgroundImage:
@@ -1908,6 +1965,7 @@ const games = [
       },
     ],
     released: "2011-11-14",
+    fakePrice: 50.99,
   },
   {
     backgroundImage:
@@ -1955,6 +2013,7 @@ const games = [
       },
     ],
     released: "1998-11-19",
+    fakePrice: 59.99,
   },
   {
     backgroundImage:
@@ -1986,6 +2045,7 @@ const games = [
       },
     ],
     released: "2014-05-19",
+    fakePrice: 30.99,
   },
 ];
 
