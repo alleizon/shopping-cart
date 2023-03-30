@@ -11,5 +11,3 @@ const generatePrices = () => {
 };
 
 generatePrices();
-
-export default generatePrices;

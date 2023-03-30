@@ -49,6 +49,8 @@ const createGames = async () => {
   await getGames(ids)
     .then((gamesJson) => {
       gamesJson.forEach((game) => {
+        const newGenres = [];
+        game.genres.forEach((genre) => newGenres.push(genre.name));
         const {
           background_image,
           background_image_additional,
@@ -56,9 +58,9 @@ const createGames = async () => {
           description_raw,
           metacritic,
           name,
-          genres,
           released,
         } = game;
+
         games.push({
           backgroundImage: background_image,
           backgroundImageAdditional: background_image_additional,
@@ -66,7 +68,7 @@ const createGames = async () => {
           descriptionRaw: description_raw,
           metacritic,
           name,
-          genres,
+          newGenres,
           released,
         });
       });
