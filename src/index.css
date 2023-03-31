@@ -1,12 +1,19 @@
 @import url("./reset.css");
 
 :root {
-  font-size: 20px;
   font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
-  --primary-color: "";
+  --light-text: #e5e5e5;
   --secondary-color: "";
+  --gradient-gray80: #2c3338;
+  --gradient-gray90: #1d2327;
+  --gradient-gray100: #101517;
+  --font-lg: 22px;
+  --font-md: 18px;
+  --font-sm: 14px;
+  color: var(--light-text);
+  font-size: var(--font-lg);
 }
 
 *,
@@ -15,4 +22,16 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  :root {
+    font-size: var(--font-md);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    font-size: var(--font-sm);
+  }
 }
