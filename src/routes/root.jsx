@@ -1,16 +1,23 @@
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, Outlet } from "react-router-dom";
+import "../css/Root.css";
 
 const Root = () => {
   return (
     <>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="shop">Shop</Link>
-        <Link to="cart">Cart</Link>
+        <Link id="home-link" to="/">
+          Home
+        </Link>
+        <Link id="shop-link" to="shop">
+          Shop
+        </Link>
+        <Link id="cart-link" to="cart">
+          <FontAwesomeIcon icon={faCartShopping} />
+        </Link>
       </nav>
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
     </>
   );
 };
