@@ -1,5 +1,7 @@
+import "../css/Index.css";
+
 const Index = () => {
-  return <main> Main </main>;
+  return <main id="index"></main>;
 };
 
 export default Index;

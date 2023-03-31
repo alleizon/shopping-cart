@@ -9,11 +9,12 @@
   --gradient-gray80: #2c3338;
   --gradient-gray90: #1d2327;
   --gradient-gray100: #101517;
+  --font-xl: 28px;
   --font-lg: 24px;
   --font-md: 20px;
   --font-sm: 16px;
   color: var(--light-text);
-  font-size: var(--font-lg);
+  font-size: var(--font-xl);
 }
 
 *,
@@ -22,6 +23,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1600px) {
+  :root {
+    font-size: var(--font-lg);
+  }
 }
 
 @media screen and (max-width: 1400px) {
