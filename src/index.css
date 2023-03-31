@@ -4,16 +4,13 @@
   font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
-  --light-text: #e5e5e5;
-  --secondary-color: "";
-  --gradient-gray80: #2c3338;
-  --gradient-gray90: #1d2327;
-  --gradient-gray100: #101517;
+  --light: #e5e5e5;
+  --dark: "";
   --font-xl: 28px;
   --font-lg: 24px;
   --font-md: 20px;
   --font-sm: 16px;
-  color: var(--light-text);
+  color: var(--light);
   font-size: var(--font-xl);
 }
 
