@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 
-import { useEffect, useState } from "react";
-import { Form, Link, useLoaderData } from "react-router-dom";
-import { getGames } from "../utils/games";
+import { useEffect, useRef, useState } from "react";
+import { Form, Link, useLoaderData, useNavigate } from "react-router-dom";
+import { getGames, getRandomGame } from "../utils/games";
 import "../css/Index.css";
 
 export const loader = async () => {
@@ -13,9 +13,40 @@ export const loader = async () => {
 
 const Index = () => {
   const games = useLoaderData();
+  const navigate = useNavigate();
   const [inputValue, setInputValue] = useState("");
   const [isFocused, setIsFocused] = useState(false);
   const [filteredGames, setFilteredGames] = useState([]);
+  const [error, setError] = useState(false);
+  const timeoutId = useRef(null);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (inputValue === "") {
+      setError(true);
+      if (timeoutId.current) {
+        clearTimeout(timeoutId.current);
+      }
+      timeoutId.current = setTimeout(() => {
+        setError(false);
+        timeoutId.current = null;
+      }, 3000);
+      return;
+    }
+
+    if (e.nativeEvent.submitter.id === "random-btn") {
+      const rnd = getRandomGame();
+      navigate(`product/${rnd.slug}`);
+      return;
+    }
+
+    if (filteredGames.length) {
+      navigate(`product/${filteredGames[0].slug}`);
+      return;
+    }
+    navigate(`product/${inputValue}`);
+  };
 
   const handleClick = (e) => {
     const inputWrapper = document.querySelector("#index .input-wrapper");
@@ -45,17 +76,23 @@ const Index = () => {
         <Link to="shop" id="index-shop">
           Shop
         </Link>
-        <Form method="get" role="search">
+        <Form
+          noValidate
+          className={error ? "error" : ""}
+          onSubmit={handleSubmit}
+          role="search"
+        >
           <div className="input-wrapper" onClick={handleClick}>
             <input
               type="search"
-              className={
+              className={`${
                 filteredGames.length > 0 && isFocused ? "active-list" : ""
-              }
+              } ${error ? "error" : error}`}
               aria-label="search games"
               name="q"
               id="game-name"
               value={inputValue}
+              required
               autoComplete="off"
               onFocus={() => setIsFocused(true)}
               onChange={handleOnChange}
@@ -75,8 +112,12 @@ const Index = () => {
             )}
           </div>
           <div className="btn-wrapper">
-            <button type="submit">Submit</button>
-            <button type="button">Random</button>
+            <button id="submit-btn" type="submit">
+              Submit
+            </button>
+            <button id="random-btn" type="submit">
+              Random
+            </button>
           </div>
         </Form>
       </div>
