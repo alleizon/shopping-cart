@@ -1,5 +1,8 @@
 #index {
   flex: 1;
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: center;
 }
 
 #index::before {
@@ -23,7 +26,72 @@
   left: 0;
   background-image: url("../assets/dota-2-templar-assassin.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 50%;
   opacity: 0.8;
   z-index: -2;
+}
+
+#index > div {
+  width: 80%;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+#index form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: max(350px, 90%);
+  align-items: center;
+}
+
+#index input {
+  padding: 0.5rem 0.8rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  font-size: inherit;
+  color: var(--light);
+  background-color: var(--dark-alpha);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.24);
+  outline: none;
+}
+
+#index input:focus {
+  outline: 2px solid rgba(204, 204, 204, 0.5);
+}
+
+#index .btn-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+a#index-shop,
+#index button {
+  text-transform: uppercase;
+  font-family: "Roboto Mono";
+  letter-spacing: 1px;
+  font-size: inherit;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  background-color: #0c0a09;
+  border: 0px solid transparent;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+a#index-shop {
+  text-decoration: none;
+  width: min-content;
+}
+
+a#index-shop:hover,
+#index button:hover {
+  background-color: var(--light);
+  color: black;
 }

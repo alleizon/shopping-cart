@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, Outlet } from "react-router-dom";
 import "../css/Root.css";
 
-const Root = () => {
-  return (
+const Root = () => (
     <>
       <nav>
         <Link id="home-link" to="/">
@@ -20,6 +19,5 @@ const Root = () => {
       <Outlet />
     </>
   );
-};
 
 export default Root;

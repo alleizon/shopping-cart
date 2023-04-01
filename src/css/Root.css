@@ -2,6 +2,7 @@ nav {
   background-color: #0b0b0ba1;
   padding: 0.5rem 10rem;
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
   border-bottom: 1px solid #e5e5e58a;
 }
@@ -16,7 +17,7 @@ nav {
   font-weight: 400;
 }
 
-a {
+a:not(#index-shop) {
   position: relative;
   color: var(--light);
   text-decoration: none;
@@ -29,7 +30,7 @@ a:visited {
   color: inherit;
 }
 
-a::after {
+a:not(#index-shop):after {
   position: absolute;
   content: "";
   width: 0;
@@ -40,7 +41,7 @@ a::after {
   transition: all 0.2s ease-in-out;
 }
 
-a:hover::after {
+a:not(#index-shop):hover::after {
   width: 100%;
   left: 0;
 }
