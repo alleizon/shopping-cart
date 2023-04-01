@@ -23,6 +23,12 @@ const Index = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (e.nativeEvent.submitter.id === "random-btn") {
+      const rnd = getRandomGame();
+      navigate(`product/${rnd.slug}`);
+      return;
+    }
+
     if (inputValue === "") {
       setError(true);
       if (timeoutId.current) {
@@ -32,12 +38,6 @@ const Index = () => {
         setError(false);
         timeoutId.current = null;
       }, 3000);
-      return;
-    }
-
-    if (e.nativeEvent.submitter.id === "random-btn") {
-      const rnd = getRandomGame();
-      navigate(`product/${rnd.slug}`);
       return;
     }
 
