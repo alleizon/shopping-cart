@@ -42,6 +42,7 @@
 }
 
 #index form {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -139,4 +140,28 @@ a#index-shop:hover,
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+#index input.error {
+  position: relative;
+  outline: 2px solid var(--error);
+}
+
+#index form::after {
+  position: absolute;
+  content: "Search can't be empty.";
+  padding: 0.5rem 1rem;
+  background-color: #0c0a09;
+  border-radius: 1rem;
+  color: var(--error);
+  font-size: inherit;
+  left: 0;
+  bottom: 110%;
+
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+#index form.error::after {
+  opacity: 1;
 }
