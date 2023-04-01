@@ -12,8 +12,8 @@ const games = [
     name: "Grand Theft Auto V",
     newGenres: ["Action", "Adventure"],
     released: "2013-09-17",
-    fakePrice: 22.99,
     id: 0,
+    slug: "grand-theft-auto-v",
   },
   {
     backgroundImage:
@@ -28,8 +28,8 @@ const games = [
     name: "The Witcher 3: Wild Hunt",
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2015-05-18",
-    fakePrice: 23.99,
     id: 1,
+    slug: "the-witcher-3-wild-hunt",
   },
   {
     backgroundImage:
@@ -44,8 +44,8 @@ const games = [
     name: "Portal 2",
     newGenres: ["Shooter", "Puzzle"],
     released: "2011-04-18",
-    fakePrice: 38.99,
     id: 2,
+    slug: "portal-2",
   },
   {
     backgroundImage:
@@ -53,15 +53,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/755/75595129616c2bb23a8595eb37fe25bd.jpg",
     description:
-      "<p>A cinematic revival of the series in its action third person form, Tomb Rider follows Lara in her least experience period of life – her youth. Heavily influenced by Naughty Dog's “Uncharted”, the game is a mix of everything, from stealth and survival to combat and QTE action scenes.<br />\nYoung Lara Croft arrives on the Yamatai, lost island near Japan, as the leader of the expedition in search of the Yamatai Kingdom, with a diverse team of specialists. But shipwreck postponed the successful arrival and seemingly forgotten island is heavily populated with hostile inhabitants, cultists of Solarii Brotherhood.<br />\nThe game will be graphic at times, especially after failed QTE's during some of the survival scenes, but overall players will enjoy classic action adventure, reminiscent of the beginning of the series. This game is not a direct sequel or continuation of existing sub-series within the franchise, but a reboot, setting up Tomb Raider to represent modern gaming experience.<br />\nThe game has RPG elements and has a world, which you can explore during the story campaign and after the completion. As well as multiplayer mode, where 2 teams (4 scavengers and 4 survivors) are clashing in 3 game modes while using weapons and environments from the single-player campaign.</p>",
+      "<p>A cinematic revival of the series in its action third person form, Tomb Rider follows Lara in her least experience period of life – her youth. Heavily influenced by Naughty Dog’s “Uncharted”, the game is a mix of everything, from stealth and survival to combat and QTE action scenes.<br />\nYoung Lara Croft arrives on the Yamatai, lost island near Japan, as the leader of the expedition in search of the Yamatai Kingdom, with a diverse team of specialists. But shipwreck postponed the successful arrival and seemingly forgotten island is heavily populated with hostile inhabitants, cultists of Solarii Brotherhood.<br />\nThe game will be graphic at times, especially after failed QTE’s during some of the survival scenes, but overall players will enjoy classic action adventure, reminiscent of the beginning of the series. This game is not a direct sequel or continuation of existing sub-series within the franchise, but a reboot, setting up Tomb Raider to represent modern gaming experience.<br />\nThe game has RPG elements and has a world, which you can explore during the story campaign and after the completion. As well as multiplayer mode, where 2 teams (4 scavengers and 4 survivors) are clashing in 3 game modes while using weapons and environments from the single-player campaign.</p>",
     descriptionRaw:
-      "A cinematic revival of the series in its action third person form, Tomb Rider follows Lara in her least experience period of life – her youth. Heavily influenced by Naughty Dog's “Uncharted”, the game is a mix of everything, from stealth and survival to combat and QTE action scenes.\r\nYoung Lara Croft arrives on the Yamatai, lost island near Japan, as the leader of the expedition in search of the Yamatai Kingdom, with a diverse team of specialists. But shipwreck postponed the successful arrival and seemingly forgotten island is heavily populated with hostile inhabitants, cultists of Solarii Brotherhood.\r\nThe game will be graphic at times, especially after failed QTE's during some of the survival scenes, but overall players will enjoy classic action adventure, reminiscent of the beginning of the series. This game is not a direct sequel or continuation of existing sub-series within the franchise, but a reboot, setting up Tomb Raider to represent modern gaming experience.\r\nThe game has RPG elements and has a world, which you can explore during the story campaign and after the completion. As well as multiplayer mode, where 2 teams (4 scavengers and 4 survivors) are clashing in 3 game modes while using weapons and environments from the single-player campaign.",
+      "A cinematic revival of the series in its action third person form, Tomb Rider follows Lara in her least experience period of life – her youth. Heavily influenced by Naughty Dog’s “Uncharted”, the game is a mix of everything, from stealth and survival to combat and QTE action scenes.\r\nYoung Lara Croft arrives on the Yamatai, lost island near Japan, as the leader of the expedition in search of the Yamatai Kingdom, with a diverse team of specialists. But shipwreck postponed the successful arrival and seemingly forgotten island is heavily populated with hostile inhabitants, cultists of Solarii Brotherhood.\r\nThe game will be graphic at times, especially after failed QTE’s during some of the survival scenes, but overall players will enjoy classic action adventure, reminiscent of the beginning of the series. This game is not a direct sequel or continuation of existing sub-series within the franchise, but a reboot, setting up Tomb Raider to represent modern gaming experience.\r\nThe game has RPG elements and has a world, which you can explore during the story campaign and after the completion. As well as multiplayer mode, where 2 teams (4 scavengers and 4 survivors) are clashing in 3 game modes while using weapons and environments from the single-player campaign.",
     metacritic: 86,
     name: "Tomb Raider (2013)",
     newGenres: ["Action", "Adventure"],
     released: "2013-03-05",
-    fakePrice: 21.99,
     id: 3,
+    slug: "tomb-raider",
   },
   {
     backgroundImage:
@@ -69,15 +69,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/f40/f40253f0068ce2f1be2b3dc630c2cf0f.jpg",
     description:
-      "<p>Counter-Strike is a multiplayer phenomenon in its simplicity. No complicated narratives to explain the source of the conflict, no futuristic and alien threats, but counter-terrorists against terrorists. Arena shooter at its core, CS:GO provides you with various methods of disposing enemies and reliant on cooperation within the team. During the round of the classical clash mode, you will gradually receive currency to purchase different equipment. Each player can carry a primary weapon, secondary pistol, knife and a set of grenades, which all can change the battle if wielded by the skilled player. <br />\nObjectives are clear and vary from map to map, from game mode to game mode. Stop the terrorists from planting explosives, stop the counter-terrorist from retrieving the hostages, kill everyone who isn't you and just perform the best with.<br />\nCS:GO is one of the major cybersport discipline, which makes playing it more exciting to some players. Aside from purchasing the game, CS:GO is infamous for its loot case system, that requires players to purchase keys, in order to open said cases. Customization items consist of weapon skins, weapon stickers, and sprays that do not affect gameplay and have purely visual value to the player.</p>",
+      "<p>Counter-Strike is a multiplayer phenomenon in its simplicity. No complicated narratives to explain the source of the conflict, no futuristic and alien threats, but counter-terrorists against terrorists. Arena shooter at its core, CS:GO provides you with various methods of disposing enemies and reliant on cooperation within the team. During the round of the classical clash mode, you will gradually receive currency to purchase different equipment. Each player can carry a primary weapon, secondary pistol, knife and a set of grenades, which all can change the battle if wielded by the skilled player. <br />\nObjectives are clear and vary from map to map, from game mode to game mode. Stop the terrorists from planting explosives, stop the counter-terrorist from retrieving the hostages, kill everyone who isn’t you and just perform the best with.<br />\nCS:GO is one of the major cybersport discipline, which makes playing it more exciting to some players. Aside from purchasing the game, CS:GO is infamous for its loot case system, that requires players to purchase keys, in order to open said cases. Customization items consist of weapon skins, weapon stickers, and sprays that do not affect gameplay and have purely visual value to the player.</p>",
     descriptionRaw:
-      "Counter-Strike is a multiplayer phenomenon in its simplicity. No complicated narratives to explain the source of the conflict, no futuristic and alien threats, but counter-terrorists against terrorists. Arena shooter at its core, CS:GO provides you with various methods of disposing enemies and reliant on cooperation within the team. During the round of the classical clash mode, you will gradually receive currency to purchase different equipment. Each player can carry a primary weapon, secondary pistol, knife and a set of grenades, which all can change the battle if wielded by the skilled player. \r\nObjectives are clear and vary from map to map, from game mode to game mode. Stop the terrorists from planting explosives, stop the counter-terrorist from retrieving the hostages, kill everyone who isn't you and just perform the best with.\r\nCS:GO is one of the major cybersport discipline, which makes playing it more exciting to some players. Aside from purchasing the game, CS:GO is infamous for its loot case system, that requires players to purchase keys, in order to open said cases. Customization items consist of weapon skins, weapon stickers, and sprays that do not affect gameplay and have purely visual value to the player.",
+      "Counter-Strike is a multiplayer phenomenon in its simplicity. No complicated narratives to explain the source of the conflict, no futuristic and alien threats, but counter-terrorists against terrorists. Arena shooter at its core, CS:GO provides you with various methods of disposing enemies and reliant on cooperation within the team. During the round of the classical clash mode, you will gradually receive currency to purchase different equipment. Each player can carry a primary weapon, secondary pistol, knife and a set of grenades, which all can change the battle if wielded by the skilled player. \r\nObjectives are clear and vary from map to map, from game mode to game mode. Stop the terrorists from planting explosives, stop the counter-terrorist from retrieving the hostages, kill everyone who isn’t you and just perform the best with.\r\nCS:GO is one of the major cybersport discipline, which makes playing it more exciting to some players. Aside from purchasing the game, CS:GO is infamous for its loot case system, that requires players to purchase keys, in order to open said cases. Customization items consist of weapon skins, weapon stickers, and sprays that do not affect gameplay and have purely visual value to the player.",
     metacritic: 81,
     name: "Counter-Strike: Global Offensive",
     newGenres: ["Action", "Shooter"],
     released: "2012-08-21",
-    fakePrice: 45.99,
     id: 4,
+    slug: "counter-strike-global-offensive",
   },
   {
     backgroundImage:
@@ -85,15 +85,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/19d/19d3effb85e8f40d0b5b004fb5ab5c76.jpg",
     description:
-      "<p>Every single time you click your mouse while holding a gun, you expect bullets to fly and enemies to fall. But here you will try out the FPS game filled with environmental puzzles and engaging story. <br />\nSilent template for your adventures, Chell, wakes up in a testing facility. She's a subject of experiments on instant travel device, supervised by snarky and hostile GLaDOS.<br />\nPlayers will have to complete the tests, room by room, expecting either reward, freedom or more tests. By using the gun, that shoots portals (Portal-Gun™), players will move blocks, travel great distance quickly and learn about your current situation, which is unraveled through environmental storytelling. What you will be told might be different from what you will see.<br />\nWhite environments will guide the player's portal placement, forcing them to pay attention to the surroundings.  Portal creates tension, allowing either solving puzzles at your own leisure or moving quickly, due to the time limit or threats.</p>",
+      "<p>Every single time you click your mouse while holding a gun, you expect bullets to fly and enemies to fall. But here you will try out the FPS game filled with environmental puzzles and engaging story. <br />\nSilent template for your adventures, Chell, wakes up in a testing facility. She’s a subject of experiments on instant travel device, supervised by snarky and hostile GLaDOS.<br />\nPlayers will have to complete the tests, room by room, expecting either reward, freedom or more tests. By using the gun, that shoots portals (Portal-Gun™), players will move blocks, travel great distance quickly and learn about your current situation, which is unraveled through environmental storytelling. What you will be told might be different from what you will see.<br />\nWhite environments will guide the player’s portal placement, forcing them to pay attention to the surroundings.  Portal creates tension, allowing either solving puzzles at your own leisure or moving quickly, due to the time limit or threats.</p>",
     descriptionRaw:
-      "Every single time you click your mouse while holding a gun, you expect bullets to fly and enemies to fall. But here you will try out the FPS game filled with environmental puzzles and engaging story. \r\nSilent template for your adventures, Chell, wakes up in a testing facility. She's a subject of experiments on instant travel device, supervised by snarky and hostile GLaDOS.\r\nPlayers will have to complete the tests, room by room, expecting either reward, freedom or more tests. By using the gun, that shoots portals (Portal-Gun™), players will move blocks, travel great distance quickly and learn about your current situation, which is unraveled through environmental storytelling. What you will be told might be different from what you will see.\r\nWhite environments will guide the player's portal placement, forcing them to pay attention to the surroundings.  Portal creates tension, allowing either solving puzzles at your own leisure or moving quickly, due to the time limit or threats.",
+      "Every single time you click your mouse while holding a gun, you expect bullets to fly and enemies to fall. But here you will try out the FPS game filled with environmental puzzles and engaging story. \r\nSilent template for your adventures, Chell, wakes up in a testing facility. She’s a subject of experiments on instant travel device, supervised by snarky and hostile GLaDOS.\r\nPlayers will have to complete the tests, room by room, expecting either reward, freedom or more tests. By using the gun, that shoots portals (Portal-Gun™), players will move blocks, travel great distance quickly and learn about your current situation, which is unraveled through environmental storytelling. What you will be told might be different from what you will see.\r\nWhite environments will guide the player’s portal placement, forcing them to pay attention to the surroundings.  Portal creates tension, allowing either solving puzzles at your own leisure or moving quickly, due to the time limit or threats.",
     metacritic: 90,
     name: "Portal",
     newGenres: ["Adventure", "Puzzle"],
     released: "2007-10-09",
-    fakePrice: 30.99,
     id: 5,
+    slug: "portal",
   },
   {
     backgroundImage:
@@ -108,8 +108,8 @@ const games = [
     name: "Left 4 Dead 2",
     newGenres: ["Action", "Shooter"],
     released: "2009-11-17",
-    fakePrice: 25.99,
     id: 6,
+    slug: "left-4-dead-2",
   },
   {
     backgroundImage:
@@ -117,15 +117,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/8f4/8f49192e182666832bb331492ca4b1cb.jpg",
     description:
-      "<p>The fifth game in the series, Skyrim takes us on a journey through the coldest region of Cyrodiil. Once again player can traverse the open world RPG armed with various medieval weapons and magic, to become a hero of Nordic legends –Dovahkiin, the Dragonborn. After mandatory character creation players will have to escape not only imprisonment but a fire-breathing dragon. Something Skyrim hasn't seen in centuries.<br />\nAfter Oblivion, the magic system was reworked, in order to show players more aggressive and direct combat. As a Dragonborn, your character will be able to use the powerful magic of dragon shouts, powered, upgraded and researched with the souls of the dragons that will be randomly encountered by players, while traveling. Hundreds of sidequests will invite players to discover every part of the newly introduced land. Aside from already filled with guilds, Daedra and steampunk Dwemer ruins, Skyrim has additional DLC content that not only brings Solstheim island and vampire conclave but gives players the ability to build their own homes, instead of buying pre-made ones.</p>",
+      "<p>The fifth game in the series, Skyrim takes us on a journey through the coldest region of Cyrodiil. Once again player can traverse the open world RPG armed with various medieval weapons and magic, to become a hero of Nordic legends –Dovahkiin, the Dragonborn. After mandatory character creation players will have to escape not only imprisonment but a fire-breathing dragon. Something Skyrim hasn’t seen in centuries.<br />\nAfter Oblivion, the magic system was reworked, in order to show players more aggressive and direct combat. As a Dragonborn, your character will be able to use the powerful magic of dragon shouts, powered, upgraded and researched with the souls of the dragons that will be randomly encountered by players, while traveling. Hundreds of sidequests will invite players to discover every part of the newly introduced land. Aside from already filled with guilds, Daedra and steampunk Dwemer ruins, Skyrim has additional DLC content that not only brings Solstheim island and vampire conclave but gives players the ability to build their own homes, instead of buying pre-made ones.</p>",
     descriptionRaw:
-      "The fifth game in the series, Skyrim takes us on a journey through the coldest region of Cyrodiil. Once again player can traverse the open world RPG armed with various medieval weapons and magic, to become a hero of Nordic legends –Dovahkiin, the Dragonborn. After mandatory character creation players will have to escape not only imprisonment but a fire-breathing dragon. Something Skyrim hasn't seen in centuries.\r\nAfter Oblivion, the magic system was reworked, in order to show players more aggressive and direct combat. As a Dragonborn, your character will be able to use the powerful magic of dragon shouts, powered, upgraded and researched with the souls of the dragons that will be randomly encountered by players, while traveling. Hundreds of sidequests will invite players to discover every part of the newly introduced land. Aside from already filled with guilds, Daedra and steampunk Dwemer ruins, Skyrim has additional DLC content that not only brings Solstheim island and vampire conclave but gives players the ability to build their own homes, instead of buying pre-made ones.",
+      "The fifth game in the series, Skyrim takes us on a journey through the coldest region of Cyrodiil. Once again player can traverse the open world RPG armed with various medieval weapons and magic, to become a hero of Nordic legends –Dovahkiin, the Dragonborn. After mandatory character creation players will have to escape not only imprisonment but a fire-breathing dragon. Something Skyrim hasn’t seen in centuries.\r\nAfter Oblivion, the magic system was reworked, in order to show players more aggressive and direct combat. As a Dragonborn, your character will be able to use the powerful magic of dragon shouts, powered, upgraded and researched with the souls of the dragons that will be randomly encountered by players, while traveling. Hundreds of sidequests will invite players to discover every part of the newly introduced land. Aside from already filled with guilds, Daedra and steampunk Dwemer ruins, Skyrim has additional DLC content that not only brings Solstheim island and vampire conclave but gives players the ability to build their own homes, instead of buying pre-made ones.",
     metacritic: 94,
     name: "The Elder Scrolls V: Skyrim",
     newGenres: ["Action", "RPG"],
     released: "2011-11-11",
-    fakePrice: 19.99,
     id: 7,
+    slug: "the-elder-scrolls-v-skyrim",
   },
   {
     backgroundImage:
@@ -133,15 +133,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/11d/11da7bd20166b2ae6e8957b7ff82de42.jpg",
     description:
-      "<p>The third game in the series, Bioshock takes the story of the underwater confinement within the lost city of Rapture and takes it in the sky-city of Columbia. Players will follow Booker DeWitt, a private eye with a military past; as he will attempt to wipe his debts with the only skill he's good at – finding people. Aside from obvious story and style differences, this time Bioshock protagonist has a personality, character, and voice, no longer the protagonist is a silent man, trying to survive.<br />\nOpen and bright level design of Columbia shows industrial colonial America in a seemingly endless carnival. But Bioshock is not famous for its visuals, but for its story.  Mystery and creative vision of Irrational Games invite players to uncover the secrets of Columbia's leader - Zachary Comstock and save Elizabeth, the girl, that's been locked up in the flying city since her birth.<br />\nUnique weapons and mechanics of Vigor will make encounters different, helping players to adjust to the new found mobility and hook shot, making fights fast-paced and imaginative.</p>",
+      "<p>The third game in the series, Bioshock takes the story of the underwater confinement within the lost city of Rapture and takes it in the sky-city of Columbia. Players will follow Booker DeWitt, a private eye with a military past; as he will attempt to wipe his debts with the only skill he’s good at – finding people. Aside from obvious story and style differences, this time Bioshock protagonist has a personality, character, and voice, no longer the protagonist is a silent man, trying to survive.<br />\nOpen and bright level design of Columbia shows industrial colonial America in a seemingly endless carnival. But Bioshock is not famous for its visuals, but for its story.  Mystery and creative vision of Irrational Games invite players to uncover the secrets of Columbia’s leader - Zachary Comstock and save Elizabeth, the girl, that’s been locked up in the flying city since her birth.<br />\nUnique weapons and mechanics of Vigor will make encounters different, helping players to adjust to the new found mobility and hook shot, making fights fast-paced and imaginative.</p>",
     descriptionRaw:
-      "The third game in the series, Bioshock takes the story of the underwater confinement within the lost city of Rapture and takes it in the sky-city of Columbia. Players will follow Booker DeWitt, a private eye with a military past; as he will attempt to wipe his debts with the only skill he's good at – finding people. Aside from obvious story and style differences, this time Bioshock protagonist has a personality, character, and voice, no longer the protagonist is a silent man, trying to survive.\r\nOpen and bright level design of Columbia shows industrial colonial America in a seemingly endless carnival. But Bioshock is not famous for its visuals, but for its story.  Mystery and creative vision of Irrational Games invite players to uncover the secrets of Columbia's leader - Zachary Comstock and save Elizabeth, the girl, that's been locked up in the flying city since her birth.\r\nUnique weapons and mechanics of Vigor will make encounters different, helping players to adjust to the new found mobility and hook shot, making fights fast-paced and imaginative.",
+      "The third game in the series, Bioshock takes the story of the underwater confinement within the lost city of Rapture and takes it in the sky-city of Columbia. Players will follow Booker DeWitt, a private eye with a military past; as he will attempt to wipe his debts with the only skill he’s good at – finding people. Aside from obvious story and style differences, this time Bioshock protagonist has a personality, character, and voice, no longer the protagonist is a silent man, trying to survive.\r\nOpen and bright level design of Columbia shows industrial colonial America in a seemingly endless carnival. But Bioshock is not famous for its visuals, but for its story.  Mystery and creative vision of Irrational Games invite players to uncover the secrets of Columbia’s leader - Zachary Comstock and save Elizabeth, the girl, that’s been locked up in the flying city since her birth.\r\nUnique weapons and mechanics of Vigor will make encounters different, helping players to adjust to the new found mobility and hook shot, making fights fast-paced and imaginative.",
     metacritic: 94,
     name: "BioShock Infinite",
     newGenres: ["Action", "Shooter"],
     released: "2013-03-26",
-    fakePrice: 50.99,
     id: 8,
+    slug: "bioshock-infinite",
   },
   {
     backgroundImage:
@@ -156,8 +156,8 @@ const games = [
     name: "Red Dead Redemption 2",
     newGenres: ["Action", "Adventure"],
     released: "2018-10-26",
-    fakePrice: 24.99,
     id: 9,
+    slug: "red-dead-redemption-2",
   },
   {
     backgroundImage:
@@ -165,15 +165,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/8e9/8e910792acf05dd5721f461744b04090.jpg",
     description:
-      "<p>Interactive storytelling and plot-heavy games gained popularity, and “Life is Strange” arrived as teen mystery adventure. The plot will go through the life of Maxine, a teenager in possession of curious power, allowing her to stop and rewind time, in order to manipulate her surroundings. Max, after the reunion with her friend Chloe, is on the path to uncovering the secrets of Arcadia Bay. Players will have to deal with puzzle solving through the fetch quests, in order to change the world around them. <br />\nThe game puts players in situations, where they're forced to make a moral choice, going through the decision which may have short-term or long-term consequences. Every choice made by the player will trigger the butterfly effect, surrounding the first playthrough of the game with a lot of emotional struggle, thoughtfully crafted by the developers at Dontnod Entertainment. Life is Strange is third person adventure game, where players might seem just as an observer of the stories, unfolding in front of them.</p>",
+      "<p>Interactive storytelling and plot-heavy games gained popularity, and “Life is Strange” arrived as teen mystery adventure. The plot will go through the life of Maxine, a teenager in possession of curious power, allowing her to stop and rewind time, in order to manipulate her surroundings. Max, after the reunion with her friend Chloe, is on the path to uncovering the secrets of Arcadia Bay. Players will have to deal with puzzle solving through the fetch quests, in order to change the world around them. <br />\nThe game puts players in situations, where they’re forced to make a moral choice, going through the decision which may have short-term or long-term consequences. Every choice made by the player will trigger the butterfly effect, surrounding the first playthrough of the game with a lot of emotional struggle, thoughtfully crafted by the developers at Dontnod Entertainment. Life is Strange is third person adventure game, where players might seem just as an observer of the stories, unfolding in front of them.</p>",
     descriptionRaw:
-      "Interactive storytelling and plot-heavy games gained popularity, and “Life is Strange” arrived as teen mystery adventure. The plot will go through the life of Maxine, a teenager in possession of curious power, allowing her to stop and rewind time, in order to manipulate her surroundings. Max, after the reunion with her friend Chloe, is on the path to uncovering the secrets of Arcadia Bay. Players will have to deal with puzzle solving through the fetch quests, in order to change the world around them. \nThe game puts players in situations, where they're forced to make a moral choice, going through the decision which may have short-term or long-term consequences. Every choice made by the player will trigger the butterfly effect, surrounding the first playthrough of the game with a lot of emotional struggle, thoughtfully crafted by the developers at Dontnod Entertainment. Life is Strange is third person adventure game, where players might seem just as an observer of the stories, unfolding in front of them.",
+      "Interactive storytelling and plot-heavy games gained popularity, and “Life is Strange” arrived as teen mystery adventure. The plot will go through the life of Maxine, a teenager in possession of curious power, allowing her to stop and rewind time, in order to manipulate her surroundings. Max, after the reunion with her friend Chloe, is on the path to uncovering the secrets of Arcadia Bay. Players will have to deal with puzzle solving through the fetch quests, in order to change the world around them. \nThe game puts players in situations, where they’re forced to make a moral choice, going through the decision which may have short-term or long-term consequences. Every choice made by the player will trigger the butterfly effect, surrounding the first playthrough of the game with a lot of emotional struggle, thoughtfully crafted by the developers at Dontnod Entertainment. Life is Strange is third person adventure game, where players might seem just as an observer of the stories, unfolding in front of them.",
     metacritic: 83,
     name: "Life is Strange",
     newGenres: ["Adventure"],
     released: "2015-01-29",
-    fakePrice: 42.99,
     id: 10,
+    slug: "life-is-strange-episode-1-2",
   },
   {
     backgroundImage:
@@ -188,8 +188,8 @@ const games = [
     name: "Borderlands 2",
     newGenres: ["Action", "Shooter", "RPG"],
     released: "2012-09-18",
-    fakePrice: 42.99,
     id: 11,
+    slug: "borderlands-2",
   },
   {
     backgroundImage:
@@ -197,15 +197,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/b2d/b2d0754d02af8e2733f05a8a769b55c7.jpg",
     description:
-      "<p>Gordon Freeman became the most popular nameless and voiceless protagonist in gaming history. He is painted as the most famous scientist and a hero within the world of Half-Life, and for a good reason. In the first game he saved the planet from alien invasion, this time, when the invasion is already begun, the world needs his help one more time. And you, as a player, will help this world to survive. This time Gordon arrives in City 17, ravaged and occupied by Combines, where he meets his old Black Mesa friends. <br />\nWhat is different, aside from the overall design quality, is the use of Valve's Source engine that not only expands on the fluidity of character model animations and movement but allows players to interact with a myriad of objects with the advanced and realistic (to an extent) physics. Classic Headcrab Zombies are revamped and have new variants that provide players with different threats. For a story-driven FPS, Half-Life 2 is unique in its plot delivery, and making in-game mechanics feel natural, be it platforming or driving.</p>",
+      "<p>Gordon Freeman became the most popular nameless and voiceless protagonist in gaming history. He is painted as the most famous scientist and a hero within the world of Half-Life, and for a good reason. In the first game he saved the planet from alien invasion, this time, when the invasion is already begun, the world needs his help one more time. And you, as a player, will help this world to survive. This time Gordon arrives in City 17, ravaged and occupied by Combines, where he meets his old Black Mesa friends. <br />\nWhat is different, aside from the overall design quality, is the use of Valve’s Source engine that not only expands on the fluidity of character model animations and movement but allows players to interact with a myriad of objects with the advanced and realistic (to an extent) physics. Classic Headcrab Zombies are revamped and have new variants that provide players with different threats. For a story-driven FPS, Half-Life 2 is unique in its plot delivery, and making in-game mechanics feel natural, be it platforming or driving.</p>",
     descriptionRaw:
-      "Gordon Freeman became the most popular nameless and voiceless protagonist in gaming history. He is painted as the most famous scientist and a hero within the world of Half-Life, and for a good reason. In the first game he saved the planet from alien invasion, this time, when the invasion is already begun, the world needs his help one more time. And you, as a player, will help this world to survive. This time Gordon arrives in City 17, ravaged and occupied by Combines, where he meets his old Black Mesa friends. \r\nWhat is different, aside from the overall design quality, is the use of Valve's Source engine that not only expands on the fluidity of character model animations and movement but allows players to interact with a myriad of objects with the advanced and realistic (to an extent) physics. Classic Headcrab Zombies are revamped and have new variants that provide players with different threats. For a story-driven FPS, Half-Life 2 is unique in its plot delivery, and making in-game mechanics feel natural, be it platforming or driving.",
+      "Gordon Freeman became the most popular nameless and voiceless protagonist in gaming history. He is painted as the most famous scientist and a hero within the world of Half-Life, and for a good reason. In the first game he saved the planet from alien invasion, this time, when the invasion is already begun, the world needs his help one more time. And you, as a player, will help this world to survive. This time Gordon arrives in City 17, ravaged and occupied by Combines, where he meets his old Black Mesa friends. \r\nWhat is different, aside from the overall design quality, is the use of Valve’s Source engine that not only expands on the fluidity of character model animations and movement but allows players to interact with a myriad of objects with the advanced and realistic (to an extent) physics. Classic Headcrab Zombies are revamped and have new variants that provide players with different threats. For a story-driven FPS, Half-Life 2 is unique in its plot delivery, and making in-game mechanics feel natural, be it platforming or driving.",
     metacritic: 96,
     name: "Half-Life 2",
     newGenres: ["Action", "Shooter"],
     released: "2004-11-16",
-    fakePrice: 55.99,
     id: 12,
+    slug: "half-life-2",
   },
   {
     backgroundImage:
@@ -213,15 +213,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/24e/24e735679130042b1a8ad1a06aefa2da.jpg",
     description:
-      "<p>FPS with RPG elements, Bioshock invites players to experience horrors of underwater isolation in the city of Rapture, the failed project of the better future. After surviving the plane crash, the protagonist has only one way to go – to the giant lighthouse that opens a way to the underwater utopia. Players will have to unravel the complicated history of Rapture, relying only on themselves, their guns and Plasmids, a mystical substance, that allows it's user to obtain near magical abilities.<br />\nThe atmosphere of isolation and threat is conveyed through the environmental sounds, subtle electrical buzzing and audio logs, telling the story of societal decay and despair. Players will shape the story, making moral choices along their way, saving Little Sisters or extracting ADAM, the mystical fuel for your abilities. While exploring the underwater city, players will complete missions for the last sane inhabitants of Rapture, while fending off the less fortunate ones.</p>",
+      "<p>FPS with RPG elements, Bioshock invites players to experience horrors of underwater isolation in the city of Rapture, the failed project of the better future. After surviving the plane crash, the protagonist has only one way to go – to the giant lighthouse that opens a way to the underwater utopia. Players will have to unravel the complicated history of Rapture, relying only on themselves, their guns and Plasmids, a mystical substance, that allows it’s user to obtain near magical abilities.<br />\nThe atmosphere of isolation and threat is conveyed through the environmental sounds, subtle electrical buzzing and audio logs, telling the story of societal decay and despair. Players will shape the story, making moral choices along their way, saving Little Sisters or extracting ADAM, the mystical fuel for your abilities. While exploring the underwater city, players will complete missions for the last sane inhabitants of Rapture, while fending off the less fortunate ones.</p>",
     descriptionRaw:
-      "FPS with RPG elements, Bioshock invites players to experience horrors of underwater isolation in the city of Rapture, the failed project of the better future. After surviving the plane crash, the protagonist has only one way to go – to the giant lighthouse that opens a way to the underwater utopia. Players will have to unravel the complicated history of Rapture, relying only on themselves, their guns and Plasmids, a mystical substance, that allows it's user to obtain near magical abilities.\r\nThe atmosphere of isolation and threat is conveyed through the environmental sounds, subtle electrical buzzing and audio logs, telling the story of societal decay and despair. Players will shape the story, making moral choices along their way, saving Little Sisters or extracting ADAM, the mystical fuel for your abilities. While exploring the underwater city, players will complete missions for the last sane inhabitants of Rapture, while fending off the less fortunate ones.",
+      "FPS with RPG elements, Bioshock invites players to experience horrors of underwater isolation in the city of Rapture, the failed project of the better future. After surviving the plane crash, the protagonist has only one way to go – to the giant lighthouse that opens a way to the underwater utopia. Players will have to unravel the complicated history of Rapture, relying only on themselves, their guns and Plasmids, a mystical substance, that allows it’s user to obtain near magical abilities.\r\nThe atmosphere of isolation and threat is conveyed through the environmental sounds, subtle electrical buzzing and audio logs, telling the story of societal decay and despair. Players will shape the story, making moral choices along their way, saving Little Sisters or extracting ADAM, the mystical fuel for your abilities. While exploring the underwater city, players will complete missions for the last sane inhabitants of Rapture, while fending off the less fortunate ones.",
     metacritic: 96,
     name: "BioShock",
     newGenres: ["Action", "Shooter"],
     released: "2007-08-21",
-    fakePrice: 40.99,
     id: 13,
+    slug: "bioshock",
   },
   {
     backgroundImage:
@@ -236,24 +236,8 @@ const games = [
     name: "Limbo",
     newGenres: ["Adventure", "Indie", "Puzzle", "Platformer"],
     released: "2010-07-21",
-    fakePrice: 36.99,
     id: 14,
-  },
-  {
-    backgroundImage:
-      "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
-    backgroundImageAdditional:
-      "https://media.rawg.io/media/screenshots/e2e/e2e16b63691fab32fa20d99f3e6895a0.jpeg",
-    description:
-      "<p>It is a new beginning for Kratos. Living as a man outside the shadow of the gods, he ventures into the brutal Norse wilds with his son Atreus, fighting to fulfill a deeply personal quest. </p>\n<p>His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew. </p>\n<p>Kratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son. </p>\n<p>From the marble and columns of ornate Olympus to the gritty forests, mountains, and caves of Pre-Viking Norse lore, this is a distinctly new realm with its own pantheon of creatures, monsters, and gods. With an added emphasis on discovery and exploration, the world will draw players in to explore every inch of God of War's breathtakingly threatening landscape—by far the largest in the franchise. </p>\n<p>With an over the shoulder free camera that brings the player closer to the action than ever before, fights in God of War mirror the pantheon of Norse creatures Kratos will face: grand, gritty, and grueling. A new main weapon and new abilities retain the defining spirit of God of War while presenting a vision of violent conflict that forges new ground in the genre</p>",
-    descriptionRaw:
-      "It is a new beginning for Kratos. Living as a man outside the shadow of the gods, he ventures into the brutal Norse wilds with his son Atreus, fighting to fulfill a deeply personal quest. \r\n\r\nHis vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew. \r\n\r\nKratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son. \r\n\r\nFrom the marble and columns of ornate Olympus to the gritty forests, mountains, and caves of Pre-Viking Norse lore, this is a distinctly new realm with its own pantheon of creatures, monsters, and gods. With an added emphasis on discovery and exploration, the world will draw players in to explore every inch of God of War's breathtakingly threatening landscape—by far the largest in the franchise. \r\n\r\nWith an over the shoulder free camera that brings the player closer to the action than ever before, fights in God of War mirror the pantheon of Norse creatures Kratos will face: grand, gritty, and grueling. A new main weapon and new abilities retain the defining spirit of God of War while presenting a vision of violent conflict that forges new ground in the genre",
-    metacritic: 94,
-    name: "God of War (2018)",
-    newGenres: ["Action", "Adventure", "RPG"],
-    released: "2018-04-20",
-    fakePrice: 58.99,
-    id: 15,
+    slug: "limbo",
   },
   {
     backgroundImage:
@@ -268,8 +252,24 @@ const games = [
     name: "Destiny 2",
     newGenres: ["Action", "Shooter", "Adventure", "Massively Multiplayer"],
     released: "2017-09-06",
-    fakePrice: 21.99,
+    id: 15,
+    slug: "destiny-2",
+  },
+  {
+    backgroundImage:
+      "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+    backgroundImageAdditional:
+      "https://media.rawg.io/media/screenshots/e2e/e2e16b63691fab32fa20d99f3e6895a0.jpeg",
+    description:
+      "<p>It is a new beginning for Kratos. Living as a man outside the shadow of the gods, he ventures into the brutal Norse wilds with his son Atreus, fighting to fulfill a deeply personal quest. </p>\n<p>His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew. </p>\n<p>Kratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son. </p>\n<p>From the marble and columns of ornate Olympus to the gritty forests, mountains, and caves of Pre-Viking Norse lore, this is a distinctly new realm with its own pantheon of creatures, monsters, and gods. With an added emphasis on discovery and exploration, the world will draw players in to explore every inch of God of War’s breathtakingly threatening landscape—by far the largest in the franchise. </p>\n<p>With an over the shoulder free camera that brings the player closer to the action than ever before, fights in God of War mirror the pantheon of Norse creatures Kratos will face: grand, gritty, and grueling. A new main weapon and new abilities retain the defining spirit of God of War while presenting a vision of violent conflict that forges new ground in the genre</p>",
+    descriptionRaw:
+      "It is a new beginning for Kratos. Living as a man outside the shadow of the gods, he ventures into the brutal Norse wilds with his son Atreus, fighting to fulfill a deeply personal quest. \r\n\r\nHis vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew. \r\n\r\nKratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son. \r\n\r\nFrom the marble and columns of ornate Olympus to the gritty forests, mountains, and caves of Pre-Viking Norse lore, this is a distinctly new realm with its own pantheon of creatures, monsters, and gods. With an added emphasis on discovery and exploration, the world will draw players in to explore every inch of God of War’s breathtakingly threatening landscape—by far the largest in the franchise. \r\n\r\nWith an over the shoulder free camera that brings the player closer to the action than ever before, fights in God of War mirror the pantheon of Norse creatures Kratos will face: grand, gritty, and grueling. A new main weapon and new abilities retain the defining spirit of God of War while presenting a vision of violent conflict that forges new ground in the genre",
+    metacritic: 94,
+    name: "God of War (2018)",
+    newGenres: ["Action", "Adventure", "RPG"],
+    released: "2018-04-20",
     id: 16,
+    slug: "god-of-war-2",
   },
   {
     backgroundImage:
@@ -277,15 +277,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/d3b/d3b881ae214f9ad14724afc41b49dcea.jpg",
     description:
-      "<p>Return of the classic FPS, Doom (2016) acts as a reboot of the series and brings back the Doomslayer, protagonist of the original Doom games. In order to solve the energy crisis, humanity learned to harvest the energy from Hell, and when something went wrong and a demon invasion has started, it's up to the player to control the Doomslayer and destroy the evil.</p>\n<p>Doom is a fast-paced game that restores the concept of instant health packs and leaves the player against armies of Hell with no cover, no health regeneration, or help from anyone. After damaging monsters enough, they will start glowing, which will allow players to perform glory kills to restore some health. While exploring the levels, players will come across secrets, collectible items, or upgrade points for the weapons and armor. The single-player campaign silent protagonist has a noticeable personality. He gets visibly annoyed and angry in his actions during expository cutscenes and forces his way through the game. Multiplayer maps gather players in Deathmatch/”king-of-the-hill” type game modes, with all the weapons from the single-player campaign.</p>",
+      "<p>Return of the classic FPS, Doom (2016) acts as a reboot of the series and brings back the Doomslayer, protagonist of the original Doom games. In order to solve the energy crisis, humanity learned to harvest the energy from Hell, and when something went wrong and a demon invasion has started, it’s up to the player to control the Doomslayer and destroy the evil.</p>\n<p>Doom is a fast-paced game that restores the concept of instant health packs and leaves the player against armies of Hell with no cover, no health regeneration, or help from anyone. After damaging monsters enough, they will start glowing, which will allow players to perform glory kills to restore some health. While exploring the levels, players will come across secrets, collectible items, or upgrade points for the weapons and armor. The single-player campaign silent protagonist has a noticeable personality. He gets visibly annoyed and angry in his actions during expository cutscenes and forces his way through the game. Multiplayer maps gather players in Deathmatch/”king-of-the-hill” type game modes, with all the weapons from the single-player campaign.</p>",
     descriptionRaw:
-      "Return of the classic FPS, Doom (2016) acts as a reboot of the series and brings back the Doomslayer, protagonist of the original Doom games. In order to solve the energy crisis, humanity learned to harvest the energy from Hell, and when something went wrong and a demon invasion has started, it's up to the player to control the Doomslayer and destroy the evil.\n\nDoom is a fast-paced game that restores the concept of instant health packs and leaves the player against armies of Hell with no cover, no health regeneration, or help from anyone. After damaging monsters enough, they will start glowing, which will allow players to perform glory kills to restore some health. While exploring the levels, players will come across secrets, collectible items, or upgrade points for the weapons and armor. The single-player campaign silent protagonist has a noticeable personality. He gets visibly annoyed and angry in his actions during expository cutscenes and forces his way through the game. Multiplayer maps gather players in Deathmatch/”king-of-the-hill” type game modes, with all the weapons from the single-player campaign.",
+      "Return of the classic FPS, Doom (2016) acts as a reboot of the series and brings back the Doomslayer, protagonist of the original Doom games. In order to solve the energy crisis, humanity learned to harvest the energy from Hell, and when something went wrong and a demon invasion has started, it’s up to the player to control the Doomslayer and destroy the evil.\n\nDoom is a fast-paced game that restores the concept of instant health packs and leaves the player against armies of Hell with no cover, no health regeneration, or help from anyone. After damaging monsters enough, they will start glowing, which will allow players to perform glory kills to restore some health. While exploring the levels, players will come across secrets, collectible items, or upgrade points for the weapons and armor. The single-player campaign silent protagonist has a noticeable personality. He gets visibly annoyed and angry in his actions during expository cutscenes and forces his way through the game. Multiplayer maps gather players in Deathmatch/”king-of-the-hill” type game modes, with all the weapons from the single-player campaign.",
     metacritic: 85,
     name: "DOOM (2016)",
     newGenres: ["Action", "Shooter"],
     released: "2016-05-13",
-    fakePrice: 45.99,
     id: 17,
+    slug: "doom",
   },
   {
     backgroundImage:
@@ -293,15 +293,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/fdf/fdf7213f4eccd1d7257491b893068310.jpg",
     description:
-      "<p>The fourth game in the post-apocalyptic action RPG series from Bethesda studious brings players back to the retro-future. After customizing the facial features of the character, players will be admitted to the Vault 111 with their family, and tricked into entering the cryogenic capsule. After the rude awakening after the unknown amount of time has passed, the child is separated from the parents and the loving partner is killed in front of them – the main quest is settled. Now there's only the giant open world to explore. Fallout 4 introduces the mechanics of settlement building, where players can build their own little town. Gathering material for crafting and building brings more “survival” elements into the old formula. Within their own settlements, players will be able to build all needed utilities, from storage spaces to power armor stations. Visual upgrade from the previous game brings life to what used to be brown wastelands, now filled with details and color.</p>",
+      "<p>The fourth game in the post-apocalyptic action RPG series from Bethesda studious brings players back to the retro-future. After customizing the facial features of the character, players will be admitted to the Vault 111 with their family, and tricked into entering the cryogenic capsule. After the rude awakening after the unknown amount of time has passed, the child is separated from the parents and the loving partner is killed in front of them – the main quest is settled. Now there’s only the giant open world to explore. Fallout 4 introduces the mechanics of settlement building, where players can build their own little town. Gathering material for crafting and building brings more “survival” elements into the old formula. Within their own settlements, players will be able to build all needed utilities, from storage spaces to power armor stations. Visual upgrade from the previous game brings life to what used to be brown wastelands, now filled with details and color.</p>",
     descriptionRaw:
-      "The fourth game in the post-apocalyptic action RPG series from Bethesda studious brings players back to the retro-future. After customizing the facial features of the character, players will be admitted to the Vault 111 with their family, and tricked into entering the cryogenic capsule. After the rude awakening after the unknown amount of time has passed, the child is separated from the parents and the loving partner is killed in front of them – the main quest is settled. Now there's only the giant open world to explore. Fallout 4 introduces the mechanics of settlement building, where players can build their own little town. Gathering material for crafting and building brings more “survival” elements into the old formula. Within their own settlements, players will be able to build all needed utilities, from storage spaces to power armor stations. Visual upgrade from the previous game brings life to what used to be brown wastelands, now filled with details and color.",
+      "The fourth game in the post-apocalyptic action RPG series from Bethesda studious brings players back to the retro-future. After customizing the facial features of the character, players will be admitted to the Vault 111 with their family, and tricked into entering the cryogenic capsule. After the rude awakening after the unknown amount of time has passed, the child is separated from the parents and the loving partner is killed in front of them – the main quest is settled. Now there’s only the giant open world to explore. Fallout 4 introduces the mechanics of settlement building, where players can build their own little town. Gathering material for crafting and building brings more “survival” elements into the old formula. Within their own settlements, players will be able to build all needed utilities, from storage spaces to power armor stations. Visual upgrade from the previous game brings life to what used to be brown wastelands, now filled with details and color.",
     metacritic: 84,
     name: "Fallout 4",
     newGenres: ["Action", "RPG"],
     released: "2015-11-09",
-    fakePrice: 49.99,
     id: 18,
+    slug: "fallout-4",
   },
   {
     backgroundImage:
@@ -316,8 +316,8 @@ const games = [
     name: "Team Fortress 2",
     newGenres: ["Action", "Shooter"],
     released: "2007-10-10",
-    fakePrice: 48.99,
     id: 19,
+    slug: "team-fortress-2",
   },
   {
     backgroundImage:
@@ -332,8 +332,8 @@ const games = [
     name: "PAYDAY 2",
     newGenres: ["Action", "Shooter"],
     released: "2013-08-13",
-    fakePrice: 53.99,
     id: 20,
+    slug: "payday-2",
   },
   {
     backgroundImage:
@@ -348,8 +348,8 @@ const games = [
     name: "Horizon Zero Dawn",
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2017-02-28",
-    fakePrice: 19.99,
     id: 21,
+    slug: "horizon-zero-dawn",
   },
   {
     backgroundImage:
@@ -364,8 +364,8 @@ const games = [
     name: "Grand Theft Auto IV",
     newGenres: ["Action", "Adventure"],
     released: "2008-04-29",
-    fakePrice: 46.99,
     id: 22,
+    slug: "grand-theft-auto-iv",
   },
   {
     backgroundImage:
@@ -373,15 +373,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/9c0/9c0fe40ff66815f302db6229758a0489.jpg",
     description:
-      "<p>Highly competitive soccer game with rocket-cars is the most comprehensive way to describe this game. Technically a sequel to Psyonix' previous game - Supersonic Acrobatic Rocket-Powered Battle-Cars; Rocket League successfully became a standalone sensation, that can be enjoyed by anyone. Easy to learn, hard to master game mechanics are perfect for the tight controls. Players are invited to maneuver the different fields within several game modes, from arcade to ranked game either 1v1, or in 2v2 and 3v3 teams. Using boosters will not only speed up the car but will allow the car to propel itself into the air.<br />\nRocket League provides several levels of customization, where not only the color of your car can be adjusted, but the colors and form of the booster flame, different hats, and little flags. Or players can pick a completely different car. Collaboration with different franchises brought not only original transport but some famous cars, including Batmobile or Delorian from Back to the Future.</p>",
+      "<p>Highly competitive soccer game with rocket-cars is the most comprehensive way to describe this game. Technically a sequel to Psyonix’ previous game - Supersonic Acrobatic Rocket-Powered Battle-Cars; Rocket League successfully became a standalone sensation, that can be enjoyed by anyone. Easy to learn, hard to master game mechanics are perfect for the tight controls. Players are invited to maneuver the different fields within several game modes, from arcade to ranked game either 1v1, or in 2v2 and 3v3 teams. Using boosters will not only speed up the car but will allow the car to propel itself into the air.<br />\nRocket League provides several levels of customization, where not only the color of your car can be adjusted, but the colors and form of the booster flame, different hats, and little flags. Or players can pick a completely different car. Collaboration with different franchises brought not only original transport but some famous cars, including Batmobile or Delorian from Back to the Future.</p>",
     descriptionRaw:
-      "Highly competitive soccer game with rocket-cars is the most comprehensive way to describe this game. Technically a sequel to Psyonix' previous game - Supersonic Acrobatic Rocket-Powered Battle-Cars; Rocket League successfully became a standalone sensation, that can be enjoyed by anyone. Easy to learn, hard to master game mechanics are perfect for the tight controls. Players are invited to maneuver the different fields within several game modes, from arcade to ranked game either 1v1, or in 2v2 and 3v3 teams. Using boosters will not only speed up the car but will allow the car to propel itself into the air.\r\nRocket League provides several levels of customization, where not only the color of your car can be adjusted, but the colors and form of the booster flame, different hats, and little flags. Or players can pick a completely different car. Collaboration with different franchises brought not only original transport but some famous cars, including Batmobile or Delorian from Back to the Future.",
+      "Highly competitive soccer game with rocket-cars is the most comprehensive way to describe this game. Technically a sequel to Psyonix’ previous game - Supersonic Acrobatic Rocket-Powered Battle-Cars; Rocket League successfully became a standalone sensation, that can be enjoyed by anyone. Easy to learn, hard to master game mechanics are perfect for the tight controls. Players are invited to maneuver the different fields within several game modes, from arcade to ranked game either 1v1, or in 2v2 and 3v3 teams. Using boosters will not only speed up the car but will allow the car to propel itself into the air.\r\nRocket League provides several levels of customization, where not only the color of your car can be adjusted, but the colors and form of the booster flame, different hats, and little flags. Or players can pick a completely different car. Collaboration with different franchises brought not only original transport but some famous cars, including Batmobile or Delorian from Back to the Future.",
     metacritic: 86,
     name: "Rocket League",
     newGenres: ["Sports", "Racing", "Indie"],
     released: "2015-07-07",
-    fakePrice: 53.99,
     id: 23,
+    slug: "rocket-league",
   },
   {
     backgroundImage:
@@ -396,8 +396,8 @@ const games = [
     name: "Dota 2",
     newGenres: ["Action", "Massively Multiplayer"],
     released: "2013-07-09",
-    fakePrice: 35.99,
     id: 24,
+    slug: "dota-2",
   },
   {
     backgroundImage:
@@ -412,8 +412,8 @@ const games = [
     name: "Cyberpunk 2077",
     newGenres: ["Action", "Adventure", "RPG"],
     released: "2020-12-10",
-    fakePrice: 22.99,
     id: 25,
+    slug: "cyberpunk-2077",
   },
   {
     backgroundImage:
@@ -421,15 +421,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/640/64043c87df0ab807b2f3cb8c3cd48889.jpg",
     description:
-      "<p>Terraria is a 2D action adventure sandbox game, where players create a character and gather resources in order to gradually craft stronger weapons and armor. Players create randomly generated maps that contain different locations within it, and by gathering specific resources and triggering special events, players will fight one of the many in-game bosses. Created characters can be played on different maps.<br />\nThe game introduces hundreds of unique items that can be found across the entirety of the map, some of which may not even be encountered. <br />\nTerraria have many different Biomes and areas with distinct visuals, containing resources and enemies unique to this biome. After gathering materials, players can craft furniture, and build settlements and houses, since after completing events or finding specific items NPCs will start to arrive, and will require player's protection. Terraria can be played on three difficulties and has a large modding community.</p>",
+      "<p>Terraria is a 2D action adventure sandbox game, where players create a character and gather resources in order to gradually craft stronger weapons and armor. Players create randomly generated maps that contain different locations within it, and by gathering specific resources and triggering special events, players will fight one of the many in-game bosses. Created characters can be played on different maps.<br />\nThe game introduces hundreds of unique items that can be found across the entirety of the map, some of which may not even be encountered. <br />\nTerraria have many different Biomes and areas with distinct visuals, containing resources and enemies unique to this biome. After gathering materials, players can craft furniture, and build settlements and houses, since after completing events or finding specific items NPCs will start to arrive, and will require player’s protection. Terraria can be played on three difficulties and has a large modding community.</p>",
     descriptionRaw:
-      "Terraria is a 2D action adventure sandbox game, where players create a character and gather resources in order to gradually craft stronger weapons and armor. Players create randomly generated maps that contain different locations within it, and by gathering specific resources and triggering special events, players will fight one of the many in-game bosses. Created characters can be played on different maps.\r\nThe game introduces hundreds of unique items that can be found across the entirety of the map, some of which may not even be encountered. \r\nTerraria have many different Biomes and areas with distinct visuals, containing resources and enemies unique to this biome. After gathering materials, players can craft furniture, and build settlements and houses, since after completing events or finding specific items NPCs will start to arrive, and will require player's protection. Terraria can be played on three difficulties and has a large modding community.",
+      "Terraria is a 2D action adventure sandbox game, where players create a character and gather resources in order to gradually craft stronger weapons and armor. Players create randomly generated maps that contain different locations within it, and by gathering specific resources and triggering special events, players will fight one of the many in-game bosses. Created characters can be played on different maps.\r\nThe game introduces hundreds of unique items that can be found across the entirety of the map, some of which may not even be encountered. \r\nTerraria have many different Biomes and areas with distinct visuals, containing resources and enemies unique to this biome. After gathering materials, players can craft furniture, and build settlements and houses, since after completing events or finding specific items NPCs will start to arrive, and will require player’s protection. Terraria can be played on three difficulties and has a large modding community.",
     metacritic: 81,
     name: "Terraria",
     newGenres: ["Action", "Indie", "Platformer"],
     released: "2011-05-16",
-    fakePrice: 48.99,
     id: 26,
+    slug: "terraria",
   },
   {
     backgroundImage:
@@ -444,8 +444,8 @@ const games = [
     name: "Warframe",
     newGenres: ["Action", "Shooter", "Massively Multiplayer"],
     released: "2013-03-25",
-    fakePrice: 25.99,
     id: 27,
+    slug: "warframe",
   },
   {
     backgroundImage:
@@ -453,15 +453,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/b5a/b5a0ae6b908241ed8fe85ae0f85150e4.jpg",
     description:
-      "<p>Not all post-apocalyptic stories begin in the burned wastelands, this time nuclear and chemical locked up survivors in the Moscow Subway, and player will take the place of Artyom, one of the survivors from the VDNKh, adoptive son of the station commander, and taking upon himself the task to deliver information about the Dark Ones to the Polis, the capital of subway, after the special operative from Spartans named Hunter went missing, after he ventured to gather information on the Hive – living space of the Dark Ones.<br />\nDark tunnels of broken subway create a claustrophobic atmosphere, where good and bad people alike are forced to bond. Closely following original book, Metro 2033 introducing bullets as currency. Players can exchange one type of bullets for another one, but it's still ammo and will be wasted with inaccurate aim. It's a first person shooter that will allow players not only see how broken apart can society become but to explore such society and ruins of the city above the underground settlement. Various monsters and mutants are not the only threat to the players, but humans as well. FPS with some stealth sections, Metro 2033 will show you every historical enemy type: bandits, Communists, and Nazis.</p>",
+      "<p>Not all post-apocalyptic stories begin in the burned wastelands, this time nuclear and chemical locked up survivors in the Moscow Subway, and player will take the place of Artyom, one of the survivors from the VDNKh, adoptive son of the station commander, and taking upon himself the task to deliver information about the Dark Ones to the Polis, the capital of subway, after the special operative from Spartans named Hunter went missing, after he ventured to gather information on the Hive – living space of the Dark Ones.<br />\nDark tunnels of broken subway create a claustrophobic atmosphere, where good and bad people alike are forced to bond. Closely following original book, Metro 2033 introducing bullets as currency. Players can exchange one type of bullets for another one, but it’s still ammo and will be wasted with inaccurate aim. It’s a first person shooter that will allow players not only see how broken apart can society become but to explore such society and ruins of the city above the underground settlement. Various monsters and mutants are not the only threat to the players, but humans as well. FPS with some stealth sections, Metro 2033 will show you every historical enemy type: bandits, Communists, and Nazis.</p>",
     descriptionRaw:
-      "Not all post-apocalyptic stories begin in the burned wastelands, this time nuclear and chemical locked up survivors in the Moscow Subway, and player will take the place of Artyom, one of the survivors from the VDNKh, adoptive son of the station commander, and taking upon himself the task to deliver information about the Dark Ones to the Polis, the capital of subway, after the special operative from Spartans named Hunter went missing, after he ventured to gather information on the Hive – living space of the Dark Ones.\r\nDark tunnels of broken subway create a claustrophobic atmosphere, where good and bad people alike are forced to bond. Closely following original book, Metro 2033 introducing bullets as currency. Players can exchange one type of bullets for another one, but it's still ammo and will be wasted with inaccurate aim. It's a first person shooter that will allow players not only see how broken apart can society become but to explore such society and ruins of the city above the underground settlement. Various monsters and mutants are not the only threat to the players, but humans as well. FPS with some stealth sections, Metro 2033 will show you every historical enemy type: bandits, Communists, and Nazis.",
+      "Not all post-apocalyptic stories begin in the burned wastelands, this time nuclear and chemical locked up survivors in the Moscow Subway, and player will take the place of Artyom, one of the survivors from the VDNKh, adoptive son of the station commander, and taking upon himself the task to deliver information about the Dark Ones to the Polis, the capital of subway, after the special operative from Spartans named Hunter went missing, after he ventured to gather information on the Hive – living space of the Dark Ones.\r\nDark tunnels of broken subway create a claustrophobic atmosphere, where good and bad people alike are forced to bond. Closely following original book, Metro 2033 introducing bullets as currency. Players can exchange one type of bullets for another one, but it’s still ammo and will be wasted with inaccurate aim. It’s a first person shooter that will allow players not only see how broken apart can society become but to explore such society and ruins of the city above the underground settlement. Various monsters and mutants are not the only threat to the players, but humans as well. FPS with some stealth sections, Metro 2033 will show you every historical enemy type: bandits, Communists, and Nazis.",
     metacritic: 79,
     name: "Metro 2033",
     newGenres: ["Action", "Shooter"],
     released: "2010-03-16",
-    fakePrice: 32.99,
     id: 28,
+    slug: "metro-2033",
   },
   {
     backgroundImage:
@@ -476,8 +476,8 @@ const games = [
     name: "Metal Gear Solid V: The Phantom Pain",
     newGenres: ["Action", "Shooter"],
     released: "2015-09-01",
-    fakePrice: 48.99,
     id: 29,
+    slug: "metal-gear-solid-v-the-phantom-pain",
   },
   {
     backgroundImage:
@@ -492,8 +492,8 @@ const games = [
     name: "Rise of the Tomb Raider",
     newGenres: ["Action"],
     released: "2015-11-10",
-    fakePrice: 36.99,
     id: 30,
+    slug: "rise-of-the-tomb-raider",
   },
   {
     backgroundImage:
@@ -508,8 +508,8 @@ const games = [
     name: "Batman: Arkham Knight",
     newGenres: ["Action"],
     released: "2015-06-23",
-    fakePrice: 31.99,
     id: 31,
+    slug: "batman-arkham-knight",
   },
   {
     backgroundImage:
@@ -517,15 +517,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/e6c/e6c8cd1ed67ba3afd09fb2222ef046af.jpg",
     description:
-      "<p>The Walking Dead is a five-part game series set in the same universe as Robert Kirkman's award-winning comic book series. Play as Lee Everett, a convicted criminal, who has been given a second chance at life in a world devastated by the undead. With corpses returning to life and survivors stopping at nothing to maintain their own safety, protecting an orphaned girl named Clementine may offer him redemption in a world gone to hell.<br />\nA continuing story of adventure horror spanning across 5 episodes:</p>\n<p>Episode 1 – A New Day (Available Now)<br />\nEpisode 2 – Starved for Help (Available Now)</p>\n<p>Episode 3 – Long Road Ahead (Available Now)<br />\nEpisode 4 – Around Every Corner (Available Now)<br />\nEpisode 5 – No Time Left (Available Now)<br />\nAll five episodes are now available immediately upon purchasing Season 1. Based on Robert Kirkman's Eisner-Award winning comic book series, The Walking Dead allows gamers to experience the true horror of the zombie apocalypse<br />\nA tailored game experience – Live with the profound and lasting consequences of the decisions that you make in each episode. Your actions and choices will affect how your story plays out across the entire series.<br />\nExperience events, meet people and visit locations that foreshadow the story of Deputy Sheriff Rick Grimes<br />\nMeet Glenn before he heads to Atlanta, explore Hershel's farm before Rick and his group of survivors arrive and before the barn becomes a notorious location in Walking Dead lore<br />\nYou'll be forced to make decisions that are not only difficult, but that will require you to make an almost immediate choice. There's no time to ponder when the undead are pounding the door down!<br />\nFeatures meaningful decision-making, exploration, problem solving and a constant fight for survival in a world overrun by the undead<br />\nArtwork inspired by the original comic books</p>",
+      "<p>The Walking Dead is a five-part game series set in the same universe as Robert Kirkman’s award-winning comic book series. Play as Lee Everett, a convicted criminal, who has been given a second chance at life in a world devastated by the undead. With corpses returning to life and survivors stopping at nothing to maintain their own safety, protecting an orphaned girl named Clementine may offer him redemption in a world gone to hell.<br />\nA continuing story of adventure horror spanning across 5 episodes:</p>\n<p>Episode 1 – A New Day (Available Now)<br />\nEpisode 2 – Starved for Help (Available Now)</p>\n<p>Episode 3 – Long Road Ahead (Available Now)<br />\nEpisode 4 – Around Every Corner (Available Now)<br />\nEpisode 5 – No Time Left (Available Now)<br />\nAll five episodes are now available immediately upon purchasing Season 1. Based on Robert Kirkman’s Eisner-Award winning comic book series, The Walking Dead allows gamers to experience the true horror of the zombie apocalypse<br />\nA tailored game experience – Live with the profound and lasting consequences of the decisions that you make in each episode. Your actions and choices will affect how your story plays out across the entire series.<br />\nExperience events, meet people and visit locations that foreshadow the story of Deputy Sheriff Rick Grimes<br />\nMeet Glenn before he heads to Atlanta, explore Hershel’s farm before Rick and his group of survivors arrive and before the barn becomes a notorious location in Walking Dead lore<br />\nYou’ll be forced to make decisions that are not only difficult, but that will require you to make an almost immediate choice. There’s no time to ponder when the undead are pounding the door down!<br />\nFeatures meaningful decision-making, exploration, problem solving and a constant fight for survival in a world overrun by the undead<br />\nArtwork inspired by the original comic books</p>",
     descriptionRaw:
-      "The Walking Dead is a five-part game series set in the same universe as Robert Kirkman's award-winning comic book series. Play as Lee Everett, a convicted criminal, who has been given a second chance at life in a world devastated by the undead. With corpses returning to life and survivors stopping at nothing to maintain their own safety, protecting an orphaned girl named Clementine may offer him redemption in a world gone to hell.\r\nA continuing story of adventure horror spanning across 5 episodes:\r\n\r\nEpisode 1 – A New Day (Available Now)\r\nEpisode 2 – Starved for Help (Available Now)\r\n\r\nEpisode 3 – Long Road Ahead (Available Now)\r\nEpisode 4 – Around Every Corner (Available Now)\r\nEpisode 5 – No Time Left (Available Now)\r\nAll five episodes are now available immediately upon purchasing Season 1. Based on Robert Kirkman's Eisner-Award winning comic book series, The Walking Dead allows gamers to experience the true horror of the zombie apocalypse\r\nA tailored game experience – Live with the profound and lasting consequences of the decisions that you make in each episode. Your actions and choices will affect how your story plays out across the entire series.\r\nExperience events, meet people and visit locations that foreshadow the story of Deputy Sheriff Rick Grimes\r\nMeet Glenn before he heads to Atlanta, explore Hershel's farm before Rick and his group of survivors arrive and before the barn becomes a notorious location in Walking Dead lore\r\nYou'll be forced to make decisions that are not only difficult, but that will require you to make an almost immediate choice. There's no time to ponder when the undead are pounding the door down!\r\nFeatures meaningful decision-making, exploration, problem solving and a constant fight for survival in a world overrun by the undead\r\nArtwork inspired by the original comic books",
+      "The Walking Dead is a five-part game series set in the same universe as Robert Kirkman’s award-winning comic book series. Play as Lee Everett, a convicted criminal, who has been given a second chance at life in a world devastated by the undead. With corpses returning to life and survivors stopping at nothing to maintain their own safety, protecting an orphaned girl named Clementine may offer him redemption in a world gone to hell.\r\nA continuing story of adventure horror spanning across 5 episodes:\r\n\r\nEpisode 1 – A New Day (Available Now)\r\nEpisode 2 – Starved for Help (Available Now)\r\n\r\nEpisode 3 – Long Road Ahead (Available Now)\r\nEpisode 4 – Around Every Corner (Available Now)\r\nEpisode 5 – No Time Left (Available Now)\r\nAll five episodes are now available immediately upon purchasing Season 1. Based on Robert Kirkman’s Eisner-Award winning comic book series, The Walking Dead allows gamers to experience the true horror of the zombie apocalypse\r\nA tailored game experience – Live with the profound and lasting consequences of the decisions that you make in each episode. Your actions and choices will affect how your story plays out across the entire series.\r\nExperience events, meet people and visit locations that foreshadow the story of Deputy Sheriff Rick Grimes\r\nMeet Glenn before he heads to Atlanta, explore Hershel’s farm before Rick and his group of survivors arrive and before the barn becomes a notorious location in Walking Dead lore\r\nYou’ll be forced to make decisions that are not only difficult, but that will require you to make an almost immediate choice. There’s no time to ponder when the undead are pounding the door down!\r\nFeatures meaningful decision-making, exploration, problem solving and a constant fight for survival in a world overrun by the undead\r\nArtwork inspired by the original comic books",
     metacritic: 92,
     name: "The Walking Dead: Season 1",
     newGenres: ["Action", "Adventure"],
     released: "2012-04-23",
-    fakePrice: 40.99,
     id: 32,
+    slug: "the-walking-dead",
   },
   {
     backgroundImage:
@@ -533,15 +533,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/7bc/7bcc514cb0b804e438944a63aa6764a6.jpg",
     description:
-      "<p>The player is Geralt of Rivia, infamous monster slayer. In the second game of the series, titular witcher is involved in the inner conflicts of Temeria, where he stopped the rebellion and was hired as a bodyguard of Temerian King Foltest. Eventually, Foltest was assassinated by a witcher-like assassin, and the only person fitting the description was Geralt. <br />\nThe game combat system was reworked, in order to add traps and ranged throwing weapon, giving players more control over the course of the battle. It's still a third person action RPG, and the player can upgrade and improve general abilities, swordsmanship, alchemy, and magic. <br />\nThe enhanced edition includes additional hours of content, new cinematics, the original soundtrack, game manual and quest handbook, among other things. The new tutorial allows players to spend more time to master new game mechanics and see for themselves visual improvements to the core game.</p>",
+      "<p>The player is Geralt of Rivia, infamous monster slayer. In the second game of the series, titular witcher is involved in the inner conflicts of Temeria, where he stopped the rebellion and was hired as a bodyguard of Temerian King Foltest. Eventually, Foltest was assassinated by a witcher-like assassin, and the only person fitting the description was Geralt. <br />\nThe game combat system was reworked, in order to add traps and ranged throwing weapon, giving players more control over the course of the battle. It’s still a third person action RPG, and the player can upgrade and improve general abilities, swordsmanship, alchemy, and magic. <br />\nThe enhanced edition includes additional hours of content, new cinematics, the original soundtrack, game manual and quest handbook, among other things. The new tutorial allows players to spend more time to master new game mechanics and see for themselves visual improvements to the core game.</p>",
     descriptionRaw:
-      "The player is Geralt of Rivia, infamous monster slayer. In the second game of the series, titular witcher is involved in the inner conflicts of Temeria, where he stopped the rebellion and was hired as a bodyguard of Temerian King Foltest. Eventually, Foltest was assassinated by a witcher-like assassin, and the only person fitting the description was Geralt. \r\nThe game combat system was reworked, in order to add traps and ranged throwing weapon, giving players more control over the course of the battle. It's still a third person action RPG, and the player can upgrade and improve general abilities, swordsmanship, alchemy, and magic. \r\nThe enhanced edition includes additional hours of content, new cinematics, the original soundtrack, game manual and quest handbook, among other things. The new tutorial allows players to spend more time to master new game mechanics and see for themselves visual improvements to the core game.",
+      "The player is Geralt of Rivia, infamous monster slayer. In the second game of the series, titular witcher is involved in the inner conflicts of Temeria, where he stopped the rebellion and was hired as a bodyguard of Temerian King Foltest. Eventually, Foltest was assassinated by a witcher-like assassin, and the only person fitting the description was Geralt. \r\nThe game combat system was reworked, in order to add traps and ranged throwing weapon, giving players more control over the course of the battle. It’s still a third person action RPG, and the player can upgrade and improve general abilities, swordsmanship, alchemy, and magic. \r\nThe enhanced edition includes additional hours of content, new cinematics, the original soundtrack, game manual and quest handbook, among other things. The new tutorial allows players to spend more time to master new game mechanics and see for themselves visual improvements to the core game.",
     metacritic: 88,
     name: "The Witcher 2: Assassins of Kings Enhanced Edition",
     newGenres: ["RPG"],
     released: "2012-04-16",
-    fakePrice: 34.99,
     id: 33,
+    slug: "the-witcher-2-assassins-of-kings-enhanced-edition",
   },
   {
     backgroundImage:
@@ -549,15 +549,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/259/259239f48f9e32210774b5641527071f.jpg",
     description:
-      "<p>Essentially a tech demo, “Half-Life 2: Lost Coast” sole purpose was to show off the new high-dynamic-range-rendering of the Source engine, it was a welcome addition to the franchise. It's a free addition to the game that can be downloaded through Steam by the owners of Half-Life 2. Gordon Freeman founds himself near a group of decaying piers, fully armed and ready to explore the monastery above him, fighting through the Combine forces.<br />\nHigh-dynamic-range-rendering introduced realistic lighting effects to the game, emulating even camera's overexposure to the bright light, which was eventually moved to the main game. Lost Coast story is conveyed without cutscenes, every part of the level is tailored specifically to demonstrate the changes, made by developers. Even though it was originally created for the Half-Life 2, it was removed from the main game, alongside some minor story details. It's not a full standalone game and wasn't intended as one.</p>",
+      "<p>Essentially a tech demo, “Half-Life 2: Lost Coast” sole purpose was to show off the new high-dynamic-range-rendering of the Source engine, it was a welcome addition to the franchise. It’s a free addition to the game that can be downloaded through Steam by the owners of Half-Life 2. Gordon Freeman founds himself near a group of decaying piers, fully armed and ready to explore the monastery above him, fighting through the Combine forces.<br />\nHigh-dynamic-range-rendering introduced realistic lighting effects to the game, emulating even camera’s overexposure to the bright light, which was eventually moved to the main game. Lost Coast story is conveyed without cutscenes, every part of the level is tailored specifically to demonstrate the changes, made by developers. Even though it was originally created for the Half-Life 2, it was removed from the main game, alongside some minor story details. It’s not a full standalone game and wasn’t intended as one.</p>",
     descriptionRaw:
-      "Essentially a tech demo, “Half-Life 2: Lost Coast” sole purpose was to show off the new high-dynamic-range-rendering of the Source engine, it was a welcome addition to the franchise. It's a free addition to the game that can be downloaded through Steam by the owners of Half-Life 2. Gordon Freeman founds himself near a group of decaying piers, fully armed and ready to explore the monastery above him, fighting through the Combine forces.\nHigh-dynamic-range-rendering introduced realistic lighting effects to the game, emulating even camera's overexposure to the bright light, which was eventually moved to the main game. Lost Coast story is conveyed without cutscenes, every part of the level is tailored specifically to demonstrate the changes, made by developers. Even though it was originally created for the Half-Life 2, it was removed from the main game, alongside some minor story details. It's not a full standalone game and wasn't intended as one.",
+      "Essentially a tech demo, “Half-Life 2: Lost Coast” sole purpose was to show off the new high-dynamic-range-rendering of the Source engine, it was a welcome addition to the franchise. It’s a free addition to the game that can be downloaded through Steam by the owners of Half-Life 2. Gordon Freeman founds himself near a group of decaying piers, fully armed and ready to explore the monastery above him, fighting through the Combine forces.\nHigh-dynamic-range-rendering introduced realistic lighting effects to the game, emulating even camera’s overexposure to the bright light, which was eventually moved to the main game. Lost Coast story is conveyed without cutscenes, every part of the level is tailored specifically to demonstrate the changes, made by developers. Even though it was originally created for the Half-Life 2, it was removed from the main game, alongside some minor story details. It’s not a full standalone game and wasn’t intended as one.",
     metacritic: null,
     name: "Half-Life 2: Lost Coast",
     newGenres: ["Action"],
     released: "2005-10-27",
-    fakePrice: 28.99,
     id: 34,
+    slug: "half-life-2-lost-coast",
   },
   {
     backgroundImage:
@@ -565,15 +565,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/76b/76bc0a5a181c6ae8f9e480f84999cb8d.jpg",
     description:
-      "<p>Lord of the rings franchise brought a new title to the collection, an open world action-adventure game, that follows Talion, Gondor captain, that survived the sacrifice that was meant to bring the Elf Lord Celebrimbor as a wraith. Losing his wife and his son, Talion is merged with Celebrimor, escaping death.  Players will have to gain EXP in order to upgrade abilities through completing various missions and defeating Uruk warlords. Some missions might require special conditions for the greater reward.<br />\nShadow of Mordor implemented the Nemesis System. It tracks the progress of every special Uruk warrior. Each special Uruk has a set of strengths and weaknesses, and players can assassinate higher ranked officers in order to promote easy to defeat Uruk to defeat them at a higher rank, weakening the Sauron's army. This planning allows players to adapt, and use mechanics of stealth kills, ranged combat, wraith skills and head-on melee more effective.</p>",
+      "<p>Lord of the rings franchise brought a new title to the collection, an open world action-adventure game, that follows Talion, Gondor captain, that survived the sacrifice that was meant to bring the Elf Lord Celebrimbor as a wraith. Losing his wife and his son, Talion is merged with Celebrimor, escaping death.  Players will have to gain EXP in order to upgrade abilities through completing various missions and defeating Uruk warlords. Some missions might require special conditions for the greater reward.<br />\nShadow of Mordor implemented the Nemesis System. It tracks the progress of every special Uruk warrior. Each special Uruk has a set of strengths and weaknesses, and players can assassinate higher ranked officers in order to promote easy to defeat Uruk to defeat them at a higher rank, weakening the Sauron’s army. This planning allows players to adapt, and use mechanics of stealth kills, ranged combat, wraith skills and head-on melee more effective.</p>",
     descriptionRaw:
-      "Lord of the rings franchise brought a new title to the collection, an open world action-adventure game, that follows Talion, Gondor captain, that survived the sacrifice that was meant to bring the Elf Lord Celebrimbor as a wraith. Losing his wife and his son, Talion is merged with Celebrimor, escaping death.  Players will have to gain EXP in order to upgrade abilities through completing various missions and defeating Uruk warlords. Some missions might require special conditions for the greater reward.\r\nShadow of Mordor implemented the Nemesis System. It tracks the progress of every special Uruk warrior. Each special Uruk has a set of strengths and weaknesses, and players can assassinate higher ranked officers in order to promote easy to defeat Uruk to defeat them at a higher rank, weakening the Sauron's army. This planning allows players to adapt, and use mechanics of stealth kills, ranged combat, wraith skills and head-on melee more effective.",
+      "Lord of the rings franchise brought a new title to the collection, an open world action-adventure game, that follows Talion, Gondor captain, that survived the sacrifice that was meant to bring the Elf Lord Celebrimbor as a wraith. Losing his wife and his son, Talion is merged with Celebrimor, escaping death.  Players will have to gain EXP in order to upgrade abilities through completing various missions and defeating Uruk warlords. Some missions might require special conditions for the greater reward.\r\nShadow of Mordor implemented the Nemesis System. It tracks the progress of every special Uruk warrior. Each special Uruk has a set of strengths and weaknesses, and players can assassinate higher ranked officers in order to promote easy to defeat Uruk to defeat them at a higher rank, weakening the Sauron’s army. This planning allows players to adapt, and use mechanics of stealth kills, ranged combat, wraith skills and head-on melee more effective.",
     metacritic: 85,
     name: "Middle-earth: Shadow of Mordor",
     newGenres: ["Action", "RPG"],
     released: "2014-09-30",
-    fakePrice: 40.99,
     id: 35,
+    slug: "shadow-of-mordor",
   },
   {
     backgroundImage:
@@ -588,8 +588,8 @@ const games = [
     name: "Grand Theft Auto: San Andreas",
     newGenres: ["Action", "Adventure"],
     released: "2004-10-26",
-    fakePrice: 40.99,
     id: 36,
+    slug: "grand-theft-auto-san-andreas",
   },
   {
     backgroundImage:
@@ -604,8 +604,8 @@ const games = [
     name: "The Witcher: Enhanced Edition Director's Cut",
     newGenres: ["Action", "RPG"],
     released: "2008-09-16",
-    fakePrice: 25.99,
     id: 37,
+    slug: "the-witcher-enhanced-edition-directors-cut",
   },
   {
     backgroundImage:
@@ -620,8 +620,8 @@ const games = [
     name: "Half-Life 2: Episode One",
     newGenres: ["Action", "Shooter"],
     released: "2006-06-01",
-    fakePrice: 45.99,
     id: 38,
+    slug: "half-life-2-episode-one",
   },
   {
     backgroundImage:
@@ -629,15 +629,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/296/296b946eb8438f48e1dd2f6753e78566.jpg",
     description:
-      "<p>The second game returns us to the city of Rapture, on the New Year's Eve, but this time player takes control of Subject Delta, Big Daddy, that's been separated from his little sister and has been forced to shoot himself 2 years before the events of the first game took place. And after his awakening 10 years later, players will help to save the last sane citizens of Rapture. As seen in the previous game, the player will have access to new weapons, unique to Big Daddies, power drill and a rivet gun, alongside an array of plasmids, Tonics, and guns. Now players will be able not only save Little Sisters from other Big Daddies, and then either harvest ADAM directly, or protect them while they collect ADAM for their new guardian. Bioshock introduces a new enemy type, Big Sisters, which are extremely agile and fast versions of Big Daddies. Newly added multiplayer brings several never seen formats to the series. Aside from expected Deathmatches, the game added story-driven mode Fall of Rapture.</p>",
+      "<p>The second game returns us to the city of Rapture, on the New Year’s Eve, but this time player takes control of Subject Delta, Big Daddy, that’s been separated from his little sister and has been forced to shoot himself 2 years before the events of the first game took place. And after his awakening 10 years later, players will help to save the last sane citizens of Rapture. As seen in the previous game, the player will have access to new weapons, unique to Big Daddies, power drill and a rivet gun, alongside an array of plasmids, Tonics, and guns. Now players will be able not only save Little Sisters from other Big Daddies, and then either harvest ADAM directly, or protect them while they collect ADAM for their new guardian. Bioshock introduces a new enemy type, Big Sisters, which are extremely agile and fast versions of Big Daddies. Newly added multiplayer brings several never seen formats to the series. Aside from expected Deathmatches, the game added story-driven mode Fall of Rapture.</p>",
     descriptionRaw:
-      "The second game returns us to the city of Rapture, on the New Year's Eve, but this time player takes control of Subject Delta, Big Daddy, that's been separated from his little sister and has been forced to shoot himself 2 years before the events of the first game took place. And after his awakening 10 years later, players will help to save the last sane citizens of Rapture. As seen in the previous game, the player will have access to new weapons, unique to Big Daddies, power drill and a rivet gun, alongside an array of plasmids, Tonics, and guns. Now players will be able not only save Little Sisters from other Big Daddies, and then either harvest ADAM directly, or protect them while they collect ADAM for their new guardian. Bioshock introduces a new enemy type, Big Sisters, which are extremely agile and fast versions of Big Daddies. Newly added multiplayer brings several never seen formats to the series. Aside from expected Deathmatches, the game added story-driven mode Fall of Rapture.",
+      "The second game returns us to the city of Rapture, on the New Year’s Eve, but this time player takes control of Subject Delta, Big Daddy, that’s been separated from his little sister and has been forced to shoot himself 2 years before the events of the first game took place. And after his awakening 10 years later, players will help to save the last sane citizens of Rapture. As seen in the previous game, the player will have access to new weapons, unique to Big Daddies, power drill and a rivet gun, alongside an array of plasmids, Tonics, and guns. Now players will be able not only save Little Sisters from other Big Daddies, and then either harvest ADAM directly, or protect them while they collect ADAM for their new guardian. Bioshock introduces a new enemy type, Big Sisters, which are extremely agile and fast versions of Big Daddies. Newly added multiplayer brings several never seen formats to the series. Aside from expected Deathmatches, the game added story-driven mode Fall of Rapture.",
     metacritic: 88,
     name: "BioShock 2",
     newGenres: ["Action", "Shooter"],
     released: "2010-02-09",
-    fakePrice: 43.99,
     id: 39,
+    slug: "bioshock-2",
   },
   {
     backgroundImage:
@@ -652,8 +652,8 @@ const games = [
     name: "Half-Life 2: Episode Two",
     newGenres: ["Action", "Shooter", "Puzzle"],
     released: "2007-10-09",
-    fakePrice: 35.99,
     id: 40,
+    slug: "half-life-2-episode-two",
   },
   {
     backgroundImage:
@@ -668,8 +668,8 @@ const games = [
     name: "Apex Legends",
     newGenres: ["Action", "Shooter", "Adventure", "Massively Multiplayer"],
     released: "2019-02-04",
-    fakePrice: 52.99,
     id: 41,
+    slug: "apex-legends",
   },
   {
     backgroundImage:
@@ -684,8 +684,8 @@ const games = [
     name: "Hitman",
     newGenres: ["Action", "Shooter", "Simulation"],
     released: "2016-03-11",
-    fakePrice: 28.99,
     id: 42,
+    slug: "hitman",
   },
   {
     backgroundImage:
@@ -700,8 +700,8 @@ const games = [
     name: "Hollow Knight",
     newGenres: ["Action", "Indie", "Platformer"],
     released: "2017-02-23",
-    fakePrice: 41.99,
     id: 43,
+    slug: "hollow-knight",
   },
   {
     backgroundImage:
@@ -709,15 +709,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/360/3608c835000ec77f5212368ba9f69278.jpg",
     description:
-      "<p>Refreshing look of Mirror's Edge made this first-person action platformer recognizable even by people who have never played it before. The City of the “utopian” society is highly monitored by the totalitarian military groups. <br />\nPlayers will take control of the female protagonist, named Faith, a specially trained Runner, master of parkour that delivers physical documents in the city, where every form of communication is watched. Her sister is framed for murder, and Faith must follow the clues to the identity of the murderer, with only lead being a note saying Icarus.<br />\nDistinct visuals of the game form the bright white city, which Faith has to navigate through, jumping across rooftops, running on walls and climbing scaffolding. Color-coded elements of the environment guiding players as to where they can progress. Special attention to the camera that will bob up in down in accordance with the movement, trying to recreate the actual vision, and not a fixed video feed. Even though Mirror's Edge has a combat system, it's not the main focus, which makes it scarce.</p>",
+      "<p>Refreshing look of Mirror’s Edge made this first-person action platformer recognizable even by people who have never played it before. The City of the “utopian” society is highly monitored by the totalitarian military groups. <br />\nPlayers will take control of the female protagonist, named Faith, a specially trained Runner, master of parkour that delivers physical documents in the city, where every form of communication is watched. Her sister is framed for murder, and Faith must follow the clues to the identity of the murderer, with only lead being a note saying Icarus.<br />\nDistinct visuals of the game form the bright white city, which Faith has to navigate through, jumping across rooftops, running on walls and climbing scaffolding. Color-coded elements of the environment guiding players as to where they can progress. Special attention to the camera that will bob up in down in accordance with the movement, trying to recreate the actual vision, and not a fixed video feed. Even though Mirror’s Edge has a combat system, it’s not the main focus, which makes it scarce.</p>",
     descriptionRaw:
-      "Refreshing look of Mirror's Edge made this first-person action platformer recognizable even by people who have never played it before. The City of the “utopian” society is highly monitored by the totalitarian military groups. \nPlayers will take control of the female protagonist, named Faith, a specially trained Runner, master of parkour that delivers physical documents in the city, where every form of communication is watched. Her sister is framed for murder, and Faith must follow the clues to the identity of the murderer, with only lead being a note saying Icarus.\nDistinct visuals of the game form the bright white city, which Faith has to navigate through, jumping across rooftops, running on walls and climbing scaffolding. Color-coded elements of the environment guiding players as to where they can progress. Special attention to the camera that will bob up in down in accordance with the movement, trying to recreate the actual vision, and not a fixed video feed. Even though Mirror's Edge has a combat system, it's not the main focus, which makes it scarce.",
+      "Refreshing look of Mirror’s Edge made this first-person action platformer recognizable even by people who have never played it before. The City of the “utopian” society is highly monitored by the totalitarian military groups. \nPlayers will take control of the female protagonist, named Faith, a specially trained Runner, master of parkour that delivers physical documents in the city, where every form of communication is watched. Her sister is framed for murder, and Faith must follow the clues to the identity of the murderer, with only lead being a note saying Icarus.\nDistinct visuals of the game form the bright white city, which Faith has to navigate through, jumping across rooftops, running on walls and climbing scaffolding. Color-coded elements of the environment guiding players as to where they can progress. Special attention to the camera that will bob up in down in accordance with the movement, trying to recreate the actual vision, and not a fixed video feed. Even though Mirror’s Edge has a combat system, it’s not the main focus, which makes it scarce.",
     metacritic: 81,
     name: "Mirror's Edge",
     newGenres: ["Action"],
     released: "2008-11-11",
-    fakePrice: 30.99,
     id: 44,
+    slug: "mirrors-edge",
   },
   {
     backgroundImage:
@@ -725,15 +725,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/24c/24c10d2fa9f3dbb4b46ff2c26a9eb9fd.jpg",
     description:
-      "<p>Heavily inspired by Limbo and Inside, Little Nightmares are telling a story of another lost child. Six is a starving little girl in a yellow raincoat, which is trapped in a mysterious vessel named the Maw. Players are taking control of Six's movement, in order to help her escape the ship and dangerous inhabitants, that's been kidnaping and preparing children to be served as a feast for the Guests. <br />\nThe control scheme is not including any combat moves, leaving players defenseless against any threat. Six can run, crawl, climb, push or pull, and in rare cases carry an object she can throw to stagger an enemy or solve a puzzle. The game gives players the ability to carry a lighted match at any time, inviting players to explore and search for the collectible statues. <br />\nLittle Nightmares have 3 DLC levels, expanding the game beyond the perspective of Six, where the Runaway Kid, a young boy, who is trying to catch up to Six and having his own adventure, going through the Maw in the extra chapters, named “The Depths”, “The Hideaway” and “The Residence.”</p>",
+      "<p>Heavily inspired by Limbo and Inside, Little Nightmares are telling a story of another lost child. Six is a starving little girl in a yellow raincoat, which is trapped in a mysterious vessel named the Maw. Players are taking control of Six’s movement, in order to help her escape the ship and dangerous inhabitants, that’s been kidnaping and preparing children to be served as a feast for the Guests. <br />\nThe control scheme is not including any combat moves, leaving players defenseless against any threat. Six can run, crawl, climb, push or pull, and in rare cases carry an object she can throw to stagger an enemy or solve a puzzle. The game gives players the ability to carry a lighted match at any time, inviting players to explore and search for the collectible statues. <br />\nLittle Nightmares have 3 DLC levels, expanding the game beyond the perspective of Six, where the Runaway Kid, a young boy, who is trying to catch up to Six and having his own adventure, going through the Maw in the extra chapters, named “The Depths”, “The Hideaway” and “The Residence.”</p>",
     descriptionRaw:
-      "Heavily inspired by Limbo and Inside, Little Nightmares are telling a story of another lost child. Six is a starving little girl in a yellow raincoat, which is trapped in a mysterious vessel named the Maw. Players are taking control of Six's movement, in order to help her escape the ship and dangerous inhabitants, that's been kidnaping and preparing children to be served as a feast for the Guests. \nThe control scheme is not including any combat moves, leaving players defenseless against any threat. Six can run, crawl, climb, push or pull, and in rare cases carry an object she can throw to stagger an enemy or solve a puzzle. The game gives players the ability to carry a lighted match at any time, inviting players to explore and search for the collectible statues. \nLittle Nightmares have 3 DLC levels, expanding the game beyond the perspective of Six, where the Runaway Kid, a young boy, who is trying to catch up to Six and having his own adventure, going through the Maw in the extra chapters, named “The Depths”, “The Hideaway” and “The Residence.”",
+      "Heavily inspired by Limbo and Inside, Little Nightmares are telling a story of another lost child. Six is a starving little girl in a yellow raincoat, which is trapped in a mysterious vessel named the Maw. Players are taking control of Six’s movement, in order to help her escape the ship and dangerous inhabitants, that’s been kidnaping and preparing children to be served as a feast for the Guests. \nThe control scheme is not including any combat moves, leaving players defenseless against any threat. Six can run, crawl, climb, push or pull, and in rare cases carry an object she can throw to stagger an enemy or solve a puzzle. The game gives players the ability to carry a lighted match at any time, inviting players to explore and search for the collectible statues. \nLittle Nightmares have 3 DLC levels, expanding the game beyond the perspective of Six, where the Runaway Kid, a young boy, who is trying to catch up to Six and having his own adventure, going through the Maw in the extra chapters, named “The Depths”, “The Hideaway” and “The Residence.”",
     metacritic: 81,
     name: "Little Nightmares",
     newGenres: ["Action", "Platformer"],
     released: "2017-04-27",
-    fakePrice: 52.99,
     id: 45,
+    slug: "little-nightmares",
   },
   {
     backgroundImage:
@@ -741,15 +741,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/7fa/7fa605c8eeeb4f6199a7bc58eb6aaac4.jpg",
     description:
-      "<p>Several chapters of top-down shooter action, Hotline Miami is a violent game, where the player takes control of the unnamed man, that receives orders to clear out stages from bandits and mobsters, using every weapon he can get. Over the course of the game, the player will be able to collect the masks that provide buffs and abilities. Fluid and tight combat includes various melee and ranged weapons, that can be used as intended or just thrown at the enemy. Once Jacket, dubbed so for his distinct letterman jacket by fans, arrives at the mission, players will have to clear out every floor from the enemies, using rooms and doors for cover or ambushes. As the story moves on, Jackets mental health will visibly deteriorate, and he will be shown to suffer from hallucinations, which is in tone with acid 80's theme.</p>",
+      "<p>Several chapters of top-down shooter action, Hotline Miami is a violent game, where the player takes control of the unnamed man, that receives orders to clear out stages from bandits and mobsters, using every weapon he can get. Over the course of the game, the player will be able to collect the masks that provide buffs and abilities. Fluid and tight combat includes various melee and ranged weapons, that can be used as intended or just thrown at the enemy. Once Jacket, dubbed so for his distinct letterman jacket by fans, arrives at the mission, players will have to clear out every floor from the enemies, using rooms and doors for cover or ambushes. As the story moves on, Jackets mental health will visibly deteriorate, and he will be shown to suffer from hallucinations, which is in tone with acid 80’s theme.</p>",
     descriptionRaw:
-      "Several chapters of top-down shooter action, Hotline Miami is a violent game, where the player takes control of the unnamed man, that receives orders to clear out stages from bandits and mobsters, using every weapon he can get. Over the course of the game, the player will be able to collect the masks that provide buffs and abilities. Fluid and tight combat includes various melee and ranged weapons, that can be used as intended or just thrown at the enemy. Once Jacket, dubbed so for his distinct letterman jacket by fans, arrives at the mission, players will have to clear out every floor from the enemies, using rooms and doors for cover or ambushes. As the story moves on, Jackets mental health will visibly deteriorate, and he will be shown to suffer from hallucinations, which is in tone with acid 80's theme.",
+      "Several chapters of top-down shooter action, Hotline Miami is a violent game, where the player takes control of the unnamed man, that receives orders to clear out stages from bandits and mobsters, using every weapon he can get. Over the course of the game, the player will be able to collect the masks that provide buffs and abilities. Fluid and tight combat includes various melee and ranged weapons, that can be used as intended or just thrown at the enemy. Once Jacket, dubbed so for his distinct letterman jacket by fans, arrives at the mission, players will have to clear out every floor from the enemies, using rooms and doors for cover or ambushes. As the story moves on, Jackets mental health will visibly deteriorate, and he will be shown to suffer from hallucinations, which is in tone with acid 80’s theme.",
     metacritic: 85,
     name: "Hotline Miami",
     newGenres: ["Action", "Shooter", "Arcade", "Indie"],
     released: "2012-10-22",
-    fakePrice: 43.99,
     id: 46,
+    slug: "hotline-miami",
   },
   {
     backgroundImage:
@@ -757,15 +757,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/a83/a8339e1219e8e4147c157a3d5bbdb36f.jpg",
     description:
-      "<p>Dark Souls III is the fourth installment in the Dark Souls series, now introducing the players to the world of Lothric, a kingdom which has suffered the fate similar to its counterparts from the previous games, descending from its height to utter darkness. A new tale of dark fantasy offers to create and guide the path of game's protagonist, the Ashen One, through the dangers of the world before him.<br />\nSharing many gameplay similarities with previous installments of the Souls series, Dark Souls III improves at what it is best. These features are the unforgiving difficulty and unique, overwhelming environments. Let alone the soundtracks, allowing players to travel through the familiar locations and encounter new obstacles alike, resulting in a great test of nerves, while also giving the fruit of resolving the secrets and echoes of the past of Dark Souls series.<br />\nThe new changes to the systems of multiplayer, crafting and combat will offer new and experienced players to challenge themselves on the field of battle, and to enhance the playthrough with each consecutive New Game +, where the in-game cycle never indeed ends, allowing for a multitude of different playstyles, and showing different events based on player's actions.</p>",
+      "<p>Dark Souls III is the fourth installment in the Dark Souls series, now introducing the players to the world of Lothric, a kingdom which has suffered the fate similar to its counterparts from the previous games, descending from its height to utter darkness. A new tale of dark fantasy offers to create and guide the path of game’s protagonist, the Ashen One, through the dangers of the world before him.<br />\nSharing many gameplay similarities with previous installments of the Souls series, Dark Souls III improves at what it is best. These features are the unforgiving difficulty and unique, overwhelming environments. Let alone the soundtracks, allowing players to travel through the familiar locations and encounter new obstacles alike, resulting in a great test of nerves, while also giving the fruit of resolving the secrets and echoes of the past of Dark Souls series.<br />\nThe new changes to the systems of multiplayer, crafting and combat will offer new and experienced players to challenge themselves on the field of battle, and to enhance the playthrough with each consecutive New Game +, where the in-game cycle never indeed ends, allowing for a multitude of different playstyles, and showing different events based on player’s actions.</p>",
     descriptionRaw:
-      "Dark Souls III is the fourth installment in the Dark Souls series, now introducing the players to the world of Lothric, a kingdom which has suffered the fate similar to its counterparts from the previous games, descending from its height to utter darkness. A new tale of dark fantasy offers to create and guide the path of game's protagonist, the Ashen One, through the dangers of the world before him.\nSharing many gameplay similarities with previous installments of the Souls series, Dark Souls III improves at what it is best. These features are the unforgiving difficulty and unique, overwhelming environments. Let alone the soundtracks, allowing players to travel through the familiar locations and encounter new obstacles alike, resulting in a great test of nerves, while also giving the fruit of resolving the secrets and echoes of the past of Dark Souls series.\nThe new changes to the systems of multiplayer, crafting and combat will offer new and experienced players to challenge themselves on the field of battle, and to enhance the playthrough with each consecutive New Game +, where the in-game cycle never indeed ends, allowing for a multitude of different playstyles, and showing different events based on player's actions.",
+      "Dark Souls III is the fourth installment in the Dark Souls series, now introducing the players to the world of Lothric, a kingdom which has suffered the fate similar to its counterparts from the previous games, descending from its height to utter darkness. A new tale of dark fantasy offers to create and guide the path of game’s protagonist, the Ashen One, through the dangers of the world before him.\nSharing many gameplay similarities with previous installments of the Souls series, Dark Souls III improves at what it is best. These features are the unforgiving difficulty and unique, overwhelming environments. Let alone the soundtracks, allowing players to travel through the familiar locations and encounter new obstacles alike, resulting in a great test of nerves, while also giving the fruit of resolving the secrets and echoes of the past of Dark Souls series.\nThe new changes to the systems of multiplayer, crafting and combat will offer new and experienced players to challenge themselves on the field of battle, and to enhance the playthrough with each consecutive New Game +, where the in-game cycle never indeed ends, allowing for a multitude of different playstyles, and showing different events based on player’s actions.",
     metacritic: 89,
     name: "Dark Souls III",
     newGenres: ["Action", "RPG"],
     released: "2016-04-11",
-    fakePrice: 27.99,
     id: 47,
+    slug: "dark-souls-iii",
   },
   {
     backgroundImage:
@@ -780,8 +780,8 @@ const games = [
     name: "Outlast",
     newGenres: ["Action", "Adventure", "Indie"],
     released: "2013-09-03",
-    fakePrice: 26.99,
     id: 48,
+    slug: "outlast",
   },
   {
     backgroundImage:
@@ -796,8 +796,8 @@ const games = [
     name: "Deus Ex: Mankind Divided",
     newGenres: ["Action", "RPG"],
     released: "2016-08-22",
-    fakePrice: 40.99,
     id: 49,
+    slug: "deus-ex-mankind-divided",
   },
   {
     backgroundImage:
@@ -812,8 +812,8 @@ const games = [
     name: "Spec Ops: The Line",
     newGenres: ["Action", "Shooter"],
     released: "2012-06-26",
-    fakePrice: 28.99,
     id: 50,
+    slug: "spec-ops-the-line",
   },
   {
     backgroundImage:
@@ -828,8 +828,8 @@ const games = [
     name: "BioShock Remastered",
     newGenres: ["Shooter"],
     released: "2016-09-15",
-    fakePrice: 58.99,
     id: 51,
+    slug: "bioshock-remastered",
   },
   {
     backgroundImage:
@@ -844,8 +844,8 @@ const games = [
     name: "Marvel's Spider-Man",
     newGenres: ["Action", "Adventure"],
     released: "2018-09-07",
-    fakePrice: 59.99,
     id: 52,
+    slug: "marvels-spider-man",
   },
   {
     backgroundImage:
@@ -860,8 +860,8 @@ const games = [
     name: "Far Cry 3",
     newGenres: ["Action", "Shooter"],
     released: "2012-11-28",
-    fakePrice: 46.99,
     id: 53,
+    slug: "far-cry-3",
   },
   {
     backgroundImage:
@@ -876,8 +876,8 @@ const games = [
     name: "Amnesia: The Dark Descent",
     newGenres: ["Action", "Adventure", "Indie"],
     released: "2010-09-08",
-    fakePrice: 30.99,
     id: 54,
+    slug: "amnesia-the-dark-descent",
   },
   {
     backgroundImage:
@@ -885,15 +885,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/650/6506115ee64d8b9dc5e27acd89340c4b.jpg",
     description:
-      "<p>Titular best-selling psychological thriller author was going through a writer's block, but when he tries to take a small vacation, it seems that he is attacked and has to fight off the “darkness” that possess people and animals alike. Action-adventure with horror elements, Alan Wake is paced like a thriller show, cinematic and slow, which is in alignment with the visual style of the rural region of Washington and linear storytelling. The main enemy, encountered by the players will be Taken – possessed by darkness creatures and humans that cannot be attacked outright, because they are shrouded in black smoke, blocking the attacks. Only after dispelling the darkness with a source of light players are able to affect the enemies. When the enemies are getting too close, Alan can perform a slow-motion dodge.<br />\nTwo more episodes were published for the first game, called “The Signal” and “The Writer”, directly continuing the story of the main game, and completing the first season.</p>",
+      "<p>Titular best-selling psychological thriller author was going through a writer’s block, but when he tries to take a small vacation, it seems that he is attacked and has to fight off the “darkness” that possess people and animals alike. Action-adventure with horror elements, Alan Wake is paced like a thriller show, cinematic and slow, which is in alignment with the visual style of the rural region of Washington and linear storytelling. The main enemy, encountered by the players will be Taken – possessed by darkness creatures and humans that cannot be attacked outright, because they are shrouded in black smoke, blocking the attacks. Only after dispelling the darkness with a source of light players are able to affect the enemies. When the enemies are getting too close, Alan can perform a slow-motion dodge.<br />\nTwo more episodes were published for the first game, called “The Signal” and “The Writer”, directly continuing the story of the main game, and completing the first season.</p>",
     descriptionRaw:
-      "Titular best-selling psychological thriller author was going through a writer's block, but when he tries to take a small vacation, it seems that he is attacked and has to fight off the “darkness” that possess people and animals alike. Action-adventure with horror elements, Alan Wake is paced like a thriller show, cinematic and slow, which is in alignment with the visual style of the rural region of Washington and linear storytelling. The main enemy, encountered by the players will be Taken – possessed by darkness creatures and humans that cannot be attacked outright, because they are shrouded in black smoke, blocking the attacks. Only after dispelling the darkness with a source of light players are able to affect the enemies. When the enemies are getting too close, Alan can perform a slow-motion dodge.\r\nTwo more episodes were published for the first game, called “The Signal” and “The Writer”, directly continuing the story of the main game, and completing the first season.",
+      "Titular best-selling psychological thriller author was going through a writer’s block, but when he tries to take a small vacation, it seems that he is attacked and has to fight off the “darkness” that possess people and animals alike. Action-adventure with horror elements, Alan Wake is paced like a thriller show, cinematic and slow, which is in alignment with the visual style of the rural region of Washington and linear storytelling. The main enemy, encountered by the players will be Taken – possessed by darkness creatures and humans that cannot be attacked outright, because they are shrouded in black smoke, blocking the attacks. Only after dispelling the darkness with a source of light players are able to affect the enemies. When the enemies are getting too close, Alan can perform a slow-motion dodge.\r\nTwo more episodes were published for the first game, called “The Signal” and “The Writer”, directly continuing the story of the main game, and completing the first season.",
     metacritic: 83,
     name: "Alan Wake",
     newGenres: ["Action", "Shooter", "Adventure"],
     released: "2010-05-14",
-    fakePrice: 48.99,
     id: 55,
+    slug: "alan-wake",
   },
   {
     backgroundImage:
@@ -901,15 +901,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/1fc/1fcc71ae3d931406dbc4b33e3446d457.jpg",
     description:
-      "<p>Upon the release of Half-Life 2 players were greatly disappointed in one thing, and that's the lack of multiplayer. Granted, single-player campaign of Half-Life 2 was impressive, but weapons that have been demonstrated in it made players curious. They questioned if the experience was complete because the first Half-Life included multiplayer mode from the beginning. Valve took the criticism and published Half-Life 2: Deathmatch – multiplayer only addition, based on the main game, which was a separate product, distributed on Steam. <br />\nThe game includes two major modes, which are Deathmatch and Team Deathmatch. Both modes have similar rules. Players must kill as many other players as possible, to gain points. Player or team with the most points win, and points are retracted for self-killing and team killing. Players can expect fast-paced matches with instant respawns.</p>",
+      "<p>Upon the release of Half-Life 2 players were greatly disappointed in one thing, and that’s the lack of multiplayer. Granted, single-player campaign of Half-Life 2 was impressive, but weapons that have been demonstrated in it made players curious. They questioned if the experience was complete because the first Half-Life included multiplayer mode from the beginning. Valve took the criticism and published Half-Life 2: Deathmatch – multiplayer only addition, based on the main game, which was a separate product, distributed on Steam. <br />\nThe game includes two major modes, which are Deathmatch and Team Deathmatch. Both modes have similar rules. Players must kill as many other players as possible, to gain points. Player or team with the most points win, and points are retracted for self-killing and team killing. Players can expect fast-paced matches with instant respawns.</p>",
     descriptionRaw:
-      "Upon the release of Half-Life 2 players were greatly disappointed in one thing, and that's the lack of multiplayer. Granted, single-player campaign of Half-Life 2 was impressive, but weapons that have been demonstrated in it made players curious. They questioned if the experience was complete because the first Half-Life included multiplayer mode from the beginning. Valve took the criticism and published Half-Life 2: Deathmatch – multiplayer only addition, based on the main game, which was a separate product, distributed on Steam. \nThe game includes two major modes, which are Deathmatch and Team Deathmatch. Both modes have similar rules. Players must kill as many other players as possible, to gain points. Player or team with the most points win, and points are retracted for self-killing and team killing. Players can expect fast-paced matches with instant respawns.",
+      "Upon the release of Half-Life 2 players were greatly disappointed in one thing, and that’s the lack of multiplayer. Granted, single-player campaign of Half-Life 2 was impressive, but weapons that have been demonstrated in it made players curious. They questioned if the experience was complete because the first Half-Life included multiplayer mode from the beginning. Valve took the criticism and published Half-Life 2: Deathmatch – multiplayer only addition, based on the main game, which was a separate product, distributed on Steam. \nThe game includes two major modes, which are Deathmatch and Team Deathmatch. Both modes have similar rules. Players must kill as many other players as possible, to gain points. Player or team with the most points win, and points are retracted for self-killing and team killing. Players can expect fast-paced matches with instant respawns.",
     metacritic: null,
     name: "Half-Life 2: Deathmatch",
     newGenres: ["Action"],
     released: "2004-11-01",
-    fakePrice: 52.99,
     id: 56,
+    slug: "half-life-2-deathmatch",
   },
   {
     backgroundImage:
@@ -917,15 +917,15 @@ const games = [
     backgroundImageAdditional:
       "https://media.rawg.io/media/screenshots/18d/18da7cf5e4533e9c830d3be80bdcc3e3.jpg",
     description:
-      "<p>Welcome to Steelport, a city that's been torn by the three violent gangs. And seemingly, only another violent gang can stop them. After merging with Ultor Corporation after the events of the second game, Boss and his lieutenants became a corporation of their own. And now, after a run-in with the corrupt police forces, when they're in the hands of the Syndicate, alone and cut out from the gathered wealth and support, 3rd Street Saints have to start from the bottom. <br />\nWhile being a third person action adventure game, Saints Row: the Third is described by developers as the game that has everything in it. While the base game is reminiscent of GTA type of games mechanically, shifting tone and frantic story create the comedic and exciting atmosphere. A long line of DLC adding to the game not only unique missions, even by the Saints Row standards, but customization items, transport, and outfits. Reviews adore the lack of serious tone and gritty realism.</p>",
+      "<p>Welcome to Steelport, a city that’s been torn by the three violent gangs. And seemingly, only another violent gang can stop them. After merging with Ultor Corporation after the events of the second game, Boss and his lieutenants became a corporation of their own. And now, after a run-in with the corrupt police forces, when they’re in the hands of the Syndicate, alone and cut out from the gathered wealth and support, 3rd Street Saints have to start from the bottom. <br />\nWhile being a third person action adventure game, Saints Row: the Third is described by developers as the game that has everything in it. While the base game is reminiscent of GTA type of games mechanically, shifting tone and frantic story create the comedic and exciting atmosphere. A long line of DLC adding to the game not only unique missions, even by the Saints Row standards, but customization items, transport, and outfits. Reviews adore the lack of serious tone and gritty realism.</p>",
     descriptionRaw:
-      "Welcome to Steelport, a city that's been torn by the three violent gangs. And seemingly, only another violent gang can stop them. After merging with Ultor Corporation after the events of the second game, Boss and his lieutenants became a corporation of their own. And now, after a run-in with the corrupt police forces, when they're in the hands of the Syndicate, alone and cut out from the gathered wealth and support, 3rd Street Saints have to start from the bottom. \r\nWhile being a third person action adventure game, Saints Row: the Third is described by developers as the game that has everything in it. While the base game is reminiscent of GTA type of games mechanically, shifting tone and frantic story create the comedic and exciting atmosphere. A long line of DLC adding to the game not only unique missions, even by the Saints Row standards, but customization items, transport, and outfits. Reviews adore the lack of serious tone and gritty realism.",
+      "Welcome to Steelport, a city that’s been torn by the three violent gangs. And seemingly, only another violent gang can stop them. After merging with Ultor Corporation after the events of the second game, Boss and his lieutenants became a corporation of their own. And now, after a run-in with the corrupt police forces, when they’re in the hands of the Syndicate, alone and cut out from the gathered wealth and support, 3rd Street Saints have to start from the bottom. \r\nWhile being a third person action adventure game, Saints Row: the Third is described by developers as the game that has everything in it. While the base game is reminiscent of GTA type of games mechanically, shifting tone and frantic story create the comedic and exciting atmosphere. A long line of DLC adding to the game not only unique missions, even by the Saints Row standards, but customization items, transport, and outfits. Reviews adore the lack of serious tone and gritty realism.",
     metacritic: 84,
     name: "Saints Row: The Third",
     newGenres: ["Action", "Adventure"],
     released: "2011-11-14",
-    fakePrice: 44.99,
     id: 57,
+    slug: "saints-row-the-third",
   },
   {
     backgroundImage:
@@ -940,8 +940,8 @@ const games = [
     name: "Half-Life",
     newGenres: ["Action", "Shooter", "Puzzle", "Platformer"],
     released: "1998-11-19",
-    fakePrice: 25.99,
     id: 58,
+    slug: "half-life",
   },
   {
     backgroundImage:
@@ -956,9 +956,13 @@ const games = [
     name: "Wolfenstein: The New Order",
     newGenres: ["Action", "Shooter"],
     released: "2014-05-19",
-    fakePrice: 52.99,
     id: 59,
+    slug: "wolfenstein-the-new-order",
   },
 ];
+
+export const getGames = () => games;
+
+export const getGameNames = () => games.map((game) => game.name);
 
 export default games;
