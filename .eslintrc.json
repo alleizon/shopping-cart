@@ -20,7 +20,6 @@
       2,
       { "namedComponents": "arrow-function" }
     ],
-    "react/prop-types": 0,
-    "arrow-body-style": ["error", "always"]
+    "react/prop-types": 0
   }
 }
