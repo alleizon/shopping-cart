@@ -17,7 +17,7 @@ nav {
   font-weight: 400;
 }
 
-a:not(#index-shop) {
+nav a {
   position: relative;
   color: var(--light);
   text-decoration: none;
@@ -30,7 +30,7 @@ a:visited {
   color: inherit;
 }
 
-a:not(#index-shop):after {
+nav a:after {
   position: absolute;
   content: "";
   width: 0;

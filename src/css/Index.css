@@ -49,6 +49,11 @@
   align-items: center;
 }
 
+#index .input-wrapper {
+  width: 100%;
+  position: relative;
+}
+
 #index input {
   padding: 0.5rem 0.8rem;
   width: 100%;
@@ -94,4 +99,39 @@ a#index-shop:hover,
 #index button:hover {
   background-color: var(--light);
   color: black;
+}
+
+#index .filtered-list {
+  position: absolute;
+  width: 100%;
+  background-color: var(--dark-alpha);
+  padding: 0.5rem 0.8rem;
+  list-style: none;
+  top: calc(100% + 2px);
+  outline: 2px solid rgba(204, 204, 204, 0.5);
+  border-top: 0px solid transparent;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+#index .filtered-list a {
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+#index .filtered-list a:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+#index input.active-list {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
