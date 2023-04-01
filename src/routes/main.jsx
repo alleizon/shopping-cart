@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Index from ".";
+import Index, { loader as indexLoader } from ".";
 import Cart from "./Cart";
 import Product from "./Product";
 import Root from "./root";
@@ -10,13 +10,13 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
-      { index: true, element: <Index /> },
+      { index: true, element: <Index />, loader: indexLoader },
       {
         path: "shop",
         element: <Shop />,
       },
       {
-        path: "product",
+        path: "product/:productId",
         element: <Product />,
       },
       {
