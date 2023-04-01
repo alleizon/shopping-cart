@@ -1,5 +1,3 @@
-const Shop = () => {
-  return <div>shop</div>;
-};
+const Shop = () => <div>shop</div>;
 
 export default Shop;
