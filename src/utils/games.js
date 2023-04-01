@@ -963,6 +963,9 @@ const games = [
 
 export const getGames = () => games;
 
-export const getGameNames = () => games.map((game) => game.name);
+export const getRandomGame = () => {
+  const id = Math.floor(Math.random() * 60);
+  return games[id];
+};
 
 export default games;
