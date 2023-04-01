@@ -123,6 +123,11 @@ a#index-shop:hover,
   text-decoration: none;
   padding: 0.5rem;
   transition: all 0.2s ease-in-out;
+  color: var(--light);
+}
+
+#index .filtered-list a:visited {
+  color: var(--light);
 }
 
 #index .filtered-list a:hover {
