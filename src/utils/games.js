@@ -968,4 +968,14 @@ export const getRandomGame = () => {
   return games[id];
 };
 
+export const getGenres = () => {
+  const genres = games.reduce((current, next) => {
+    next.newGenres.forEach((genre) => {
+      if (!current.includes(genre)) current.push(genre);
+    });
+    return current;
+  }, []);
+  return genres;
+};
+
 export default games;
