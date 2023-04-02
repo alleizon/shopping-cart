@@ -4,6 +4,7 @@ import { useState } from "react";
 import GenreFilters from "../components/Shop/GenreFilters";
 import Items from "../components/Shop/Items";
 import { getGames } from "../utils/games";
+import useResizeWindow from "../hooks/useResizeWindow";
 
 export const loader = async () => {
   const games = await getGames();
@@ -14,6 +15,7 @@ const Shop = () => {
   const games = useLoaderData();
   const [page, setPage] = useState(1);
   const [filter, setFilter] = useState(null);
+  const hideFilters = useResizeWindow();
 
   const handlePageClick = (e) => {
     const clickedPage = Number(e.target.dataset.page);
@@ -22,9 +24,13 @@ const Shop = () => {
 
   return (
     <main id="shop">
-      <div>
-        <GenreFilters games={games} setFilter={setFilter} />
-        <Items page={page} filter={filter} />
+      <div id="shop-container">
+        <GenreFilters
+          filter={filter}
+          hideFilters={hideFilters}
+          setFilter={setFilter}
+        />
+        <Items games={games} page={page} filter={filter} />
         <div className="pages">
           <button type="button" data-page="1" onClick={handlePageClick}>
             1
