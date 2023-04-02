@@ -11,7 +11,7 @@
   --font-xl: 28px;
   --font-lg: 24px;
   --font-md: 20px;
-  --font-sm: 16px;
+  --font-sm: 18px;
   color: var(--light);
   font-size: var(--font-xl);
 }
@@ -29,6 +29,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-size: min(24px, 1rem);
 }
 
 @media screen and (max-width: 1600px) {
