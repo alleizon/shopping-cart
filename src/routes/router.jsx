@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Index, { loader as indexLoader } from ".";
+import Index, { loader as indexLoader } from "./index";
+import Shop, { loader as shopLoader } from "./Shop";
 import Cart from "./Cart";
 import Product from "./Product";
 import Root from "./root";
-import Shop from "./Shop";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +14,7 @@ const router = createBrowserRouter([
       {
         path: "shop",
         element: <Shop />,
+        loader: shopLoader,
       },
       {
         path: "product/:productId",
