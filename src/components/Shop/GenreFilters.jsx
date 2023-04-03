@@ -8,6 +8,9 @@ const GenreFilters = ({ filter, hideFilters, setFilter }) => {
 
   return (
     <div id="filters">
+      <button type="button" id="reset-filters" onClick={() => setFilter(null)}>
+        Clear
+      </button>
       {hideFilters ? (
         <select
           value={filter || "Filters"}
@@ -29,7 +32,11 @@ const GenreFilters = ({ filter, hideFilters, setFilter }) => {
       ) : (
         <ul>
           {genres.map((genre, index) => (
-            <li key={index} className={filter === genre ? "active" : ""}>
+            <li
+              key={index}
+              data-filter={genre}
+              className={filter === genre ? "active" : ""}
+            >
               <button type="button" onClick={() => setFilter(genre)}>
                 {genre}
               </button>
