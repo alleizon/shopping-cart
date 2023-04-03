@@ -978,4 +978,7 @@ export const getGenres = () => {
   return genres;
 };
 
+export const getFilteredGames = (genre) =>
+  games.filter((game) => game.newGenres.includes(genre));
+
 export default games;
