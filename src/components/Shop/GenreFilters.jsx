@@ -2,47 +2,46 @@
 /* eslint-disable react/no-array-index-key */
 
 import { getGenres } from "../../utils/games";
+import SelectFilterList from "./SelectFilterList";
 
 const GenreFilters = ({ filter, hideFilters, setFilter }) => {
   const genres = getGenres();
 
+  const renderList = () => (
+    <ul>
+      {genres.map((genre, index) => (
+        <li key={index} data-filter={genre}>
+          <button
+            type="button"
+            className={filter === genre ? "active" : ""}
+            onClick={() => setFilter(genre)}
+          >
+            {genre}
+          </button>
+        </li>
+      ))}
+    </ul>
+  );
+
   return (
     <div id="filters">
-      <button type="button" id="reset-filters" onClick={() => setFilter(null)}>
-        Clear
-      </button>
       {hideFilters ? (
-        <select
-          value={filter || "Filters"}
-          onChange={(e) => {
-            if (!genres.includes(e.target.value)) {
-              setFilter(null);
-              return;
-            }
-            setFilter(e.target.value);
-          }}
-        >
-          <option>Filters</option>
-          {genres.map((genre, index) => (
-            <option key={index} value={genre}>
-              {genre}
-            </option>
-          ))}
-        </select>
+        <SelectFilterList
+          filter={filter}
+          setFilter={setFilter}
+          renderList={renderList}
+        />
       ) : (
-        <ul>
-          {genres.map((genre, index) => (
-            <li key={index} data-filter={genre}>
-              <button
-                type="button"
-                className={filter === genre ? "active" : ""}
-                onClick={() => setFilter(genre)}
-              >
-                {genre}
-              </button>
-            </li>
-          ))}
-        </ul>
+        <>
+          <button
+            type="button"
+            id="reset-filters"
+            onClick={() => setFilter(null)}
+          >
+            Clear
+          </button>
+          {renderList()}
+        </>
       )}
     </div>
   );

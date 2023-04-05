@@ -85,4 +85,34 @@
     grid-column: 1 / -1;
     justify-self: center;
   }
+
+  #filters .select-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+
+  #filters .select-list ul,
+  #filters .select-list > button {
+    width: 100%;
+  }
+
+  #filters .select-list button {
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+  }
+
+  #filters .select-list.dropdown ul {
+    position: absolute;
+    padding-top: 0.8rem;
+    top: 100%;
+    left: 0;
+    background-color: black;
+  }
+
+  #filters .select-list.dropdown svg:hover {
+    background-color: var(--light) !important;
+  }
 }
