@@ -961,7 +961,13 @@ const games = [
   },
 ];
 
-export const getGames = () => games;
+// sorted by metacriticc score
+export const getGames = () =>
+  games.sort((gameA, gameB) => {
+    if (gameA.metacritic > gameB.metacritic) return -1;
+    if (gameA.metacritic < gameB.metacritic) return 1;
+    return 0;
+  });
 
 export const getRandomGame = () => {
   const id = Math.floor(Math.random() * 60);

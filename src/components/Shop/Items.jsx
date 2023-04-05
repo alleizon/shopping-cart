@@ -17,6 +17,7 @@ const Items = ({ games, filter }) => {
         <button
           type="button"
           data-page={i}
+          className={page === i ? "active-page" : ""}
           // eslint-disable-next-line react/no-array-index-key
           key={i}
           onClick={handlePageClick}
@@ -49,14 +50,16 @@ const Items = ({ games, filter }) => {
   }, [filter]);
 
   return page !== null ? (
-    <div id="items">
-      {filteredGames[page].map((game) => (
-        <div key={game.id}>{game.name}</div>
-      ))}
-      <div className="page-buttons">{pageButtons()}</div>
-    </div>
+    <>
+      <div id="items">
+        {filteredGames[page].map((game) => (
+          <div key={game.id}>{game.name}</div>
+        ))}
+      </div>
+      <div id="page-buttons">{pageButtons()}</div>
+    </>
   ) : (
-    <div>loading...</div>
+    <div>Loading...</div>
   );
 };
 

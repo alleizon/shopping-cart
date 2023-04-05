@@ -32,12 +32,12 @@ const GenreFilters = ({ filter, hideFilters, setFilter }) => {
       ) : (
         <ul>
           {genres.map((genre, index) => (
-            <li
-              key={index}
-              data-filter={genre}
-              className={filter === genre ? "active" : ""}
-            >
-              <button type="button" onClick={() => setFilter(genre)}>
+            <li key={index} data-filter={genre}>
+              <button
+                type="button"
+                className={filter === genre ? "active" : ""}
+                onClick={() => setFilter(genre)}
+              >
                 {genre}
               </button>
             </li>

@@ -1,4 +1,88 @@
 #shop {
   background-color: var(--dark);
   flex: 1;
+  font-size: min(20px, 1rem);
+}
+
+#shop-container {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-rows: 1fr min-content;
+  grid-template-columns: 1fr 2fr;
+}
+
+#filters {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+#filters > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#filters button {
+  padding: 0.1rem 0;
+  cursor: pointer;
+  font-size: inherit;
+  width: 80%;
+  background-color: black;
+  font-family: "Roboto Mono";
+  letter-spacing: 1px;
+  color: var(--light);
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+#filters button:hover,
+#filters button.active {
+  background-color: var(--light);
+  color: black;
+}
+
+#items {
+  padding: 1rem;
+}
+
+#page-buttons {
+  grid-column: 2 / 3;
+  justify-self: center;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+#page-buttons > button {
+  cursor: pointer;
+  width: 1.4rem;
+  height: 1.4rem;
+  font-weight: 600;
+  background-color: var(--light);
+  border-radius: 50%;
+  border: 1px solid transparent;
+  font-family: "Roboto Mono";
+  color: var(--dark);
+  transition: all 0.2s ease-in-out;
+}
+
+#page-buttons > button:hover,
+#page-buttons .active-page {
+  background-color: var(--dark);
+  color: var(--light);
+  border: 1px solid var(--light);
+}
+
+@media screen and (max-width: 900px) {
+  #shop-container {
+    grid-template-rows: min-content 1fr min-content;
+    grid-template-columns: 1fr;
+  }
+
+  #page-buttons {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
