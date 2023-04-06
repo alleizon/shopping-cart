@@ -1,3 +1,51 @@
 #items {
   padding: 1rem;
+  display: grid;
+  gap: 1.3rem;
+  grid-auto-rows: 300px;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-wrapper {
+  height: 75%;
+}
+
+.card-img-wrapper > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1400px) {
+  #items {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+#items::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+#items::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#items::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+#items::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

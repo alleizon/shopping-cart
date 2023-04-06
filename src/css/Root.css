@@ -1,8 +1,10 @@
 nav {
   background-color: #0b0b0bde;
-  padding: 0.5rem 10rem;
+  padding: 0rem 10rem;
+  height: 5%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   border-bottom: 1px solid #e5e5e58a;
 }

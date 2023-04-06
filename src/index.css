@@ -26,7 +26,7 @@
 
 #root {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: min(24px, 1rem);
