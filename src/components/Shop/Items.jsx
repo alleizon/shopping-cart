@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getFilteredGames } from "../../utils/games";
+import GameCard from "./GameCard";
 
 const Items = ({ games, filter }) => {
   const [filteredGames, setFilteredGames] = useState([]);
@@ -53,7 +54,7 @@ const Items = ({ games, filter }) => {
     <>
       <div id="items">
         {filteredGames[page].map((game) => (
-          <div key={game.id}>{game.name}</div>
+          <GameCard key={game.id} game={game} />
         ))}
       </div>
       <div id="page-buttons">{pageButtons()}</div>
