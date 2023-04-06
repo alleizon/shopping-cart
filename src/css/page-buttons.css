@@ -1,0 +1,34 @@
+#page-buttons {
+  grid-column: 2 / 3;
+  justify-self: center;
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+#page-buttons > button {
+  cursor: pointer;
+  width: 1.4rem;
+  height: 1.4rem;
+  font-weight: 600;
+  background-color: var(--dark);
+  border-radius: 50%;
+  border: 1px solid var(--light);
+  font-family: "Roboto Mono";
+  color: var(--light);
+  transition: all 0.2s ease-in-out;
+}
+
+#page-buttons > button:hover,
+#page-buttons .active-page {
+  background-color: var(--light);
+  color: var(--dark);
+  border: 1px solid transparent;
+}
+
+@media screen and (max-width: 900px) {
+  #page-buttons {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
