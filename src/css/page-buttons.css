@@ -1,7 +1,6 @@
 #page-buttons {
   grid-column: 2 / 3;
   justify-self: center;
-  margin-top: 1rem;
   display: flex;
   gap: 0.3rem;
 }
