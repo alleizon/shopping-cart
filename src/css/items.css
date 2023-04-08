@@ -4,8 +4,6 @@
   grid-auto-rows: 300px;
   grid-template-columns: repeat(3, 300px);
   justify-content: center;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .item-container {
@@ -36,22 +34,4 @@
   #items {
     grid-template-columns: 300px;
   }
-}
-
-#items::-webkit-scrollbar {
-  width: 6px;
-  height: 10px;
-}
-
-#items::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-#items::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-#items::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }
