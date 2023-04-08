@@ -1,4 +1,4 @@
-import { useOutletContext } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 
 const GameCard = ({ game }) => {
   const [cartItems, setCartItems] = useOutletContext();
@@ -31,8 +31,10 @@ const GameCard = ({ game }) => {
           }}
         />
       </div>
-      <div>
-        <p>Read more</p>
+      <div className="card-buttons">
+        <Link to={`/product/${game.slug}`} className="dark-button">
+          Read More
+        </Link>
         {game.addedToCart ? (
           <button
             className="remove-from-cart"
