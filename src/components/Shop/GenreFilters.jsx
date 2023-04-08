@@ -13,7 +13,7 @@ const GenreFilters = ({ filter, hideFilters, setFilter }) => {
         <li key={index} data-filter={genre}>
           <button
             type="button"
-            className={filter === genre ? "active" : ""}
+            className={(filter === genre ? "active" : "", "dark-button")}
             onClick={() => setFilter(genre)}
           >
             {genre}
@@ -37,6 +37,7 @@ const GenreFilters = ({ filter, hideFilters, setFilter }) => {
             type="button"
             id="reset-filters"
             onClick={() => setFilter(null)}
+            className="dark-button"
           >
             Clear
           </button>

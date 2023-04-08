@@ -43,7 +43,11 @@ const SelectFilterList = ({ setFilter, filter, renderList }) => {
             icon={faXmark}
             size="lg"
           />
-          <button type="button" onClick={handleResetClick}>
+          <button
+            type="button"
+            className="dark-button"
+            onClick={handleResetClick}
+          >
             Reset
           </button>
           {renderList()}
@@ -51,7 +55,11 @@ const SelectFilterList = ({ setFilter, filter, renderList }) => {
       ) : (
         <ul>
           <li>
-            <button type="button" onClick={handleFilterClick}>
+            <button
+              type="button"
+              className="dark-button"
+              onClick={handleFilterClick}
+            >
               {`Filter: ${filter || "none"}`}
             </button>
           </li>

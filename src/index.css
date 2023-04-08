@@ -32,6 +32,24 @@
   font-size: min(24px, 1rem);
 }
 
+.dark-button {
+  text-transform: uppercase;
+  font-family: "Roboto Mono";
+  letter-spacing: 1px;
+  font-size: inherit;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  background-color: #0c0a09;
+  border: 0px solid transparent;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+.dark-button:hover {
+  background-color: var(--light);
+  color: black;
+}
+
 @media screen and (max-width: 1600px) {
   :root {
     font-size: var(--font-lg);

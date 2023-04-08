@@ -77,29 +77,9 @@
   justify-content: center;
 }
 
-a#index-shop,
-#index button {
-  text-transform: uppercase;
-  font-family: "Roboto Mono";
-  letter-spacing: 1px;
-  font-size: inherit;
-  padding: 0.4rem 0.8rem;
-  cursor: pointer;
-  background-color: #0c0a09;
-  border: 0px solid transparent;
-  color: inherit;
-  transition: all 0.2s ease-in-out;
-}
-
 a#index-shop {
   text-decoration: none;
   width: min-content;
-}
-
-a#index-shop:hover,
-#index button:hover {
-  background-color: var(--light);
-  color: black;
 }
 
 #index .filtered-list {

@@ -73,7 +73,7 @@ const Index = () => {
   return (
     <main id="index">
       <div>
-        <Link to="shop" id="index-shop">
+        <Link to="shop" className="dark-button" id="index-shop">
           Shop
         </Link>
         <Form
@@ -112,10 +112,10 @@ const Index = () => {
             )}
           </div>
           <div className="btn-wrapper">
-            <button id="submit-btn" type="submit">
+            <button id="submit-btn" className="dark-button" type="submit">
               Submit
             </button>
-            <button id="random-btn" type="submit">
+            <button id="random-btn" className="dark-button" type="submit">
               Random
             </button>
           </div>

@@ -12,21 +12,15 @@
 
 #filters button {
   padding: 0.1rem 0;
-  cursor: pointer;
-  font-size: inherit;
   width: 100%;
+  /* cursor: pointer;
+  font-size: inherit;
   background-color: #0c0a09;
   font-family: "Roboto Mono";
   letter-spacing: 1px;
   color: var(--light);
   border: 1px solid transparent;
-  transition: all 0.2s ease-in-out;
-}
-
-#filters button:hover,
-#filters button.active {
-  background-color: var(--light);
-  color: #0c0a09;
+  transition: all 0.2s ease-in-out; */
 }
 
 @media screen and (max-width: 900px) {
