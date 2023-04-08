@@ -3,20 +3,17 @@ import { Link, useOutletContext } from "react-router-dom";
 const GameCard = ({ game }) => {
   const [cartItems, setCartItems] = useOutletContext();
 
-  const handleRemoveFromCart = () => {
+  const handleAddToCart = (action) => {
     const cartCopy = cartItems.slice();
     const gameCopy = game;
-    const index = cartCopy.findIndex((cartGame) => cartGame === gameCopy);
-    cartCopy.splice(index, 1);
-    gameCopy.addedToCart = false;
-    setCartItems(cartCopy);
-  };
-
-  const handleAddToCart = () => {
-    const cartCopy = cartItems.slice();
-    const gameCopy = game;
-    cartCopy.push(game);
-    gameCopy.addedToCart = true;
+    if (action === "add") {
+      cartCopy.push(game);
+      gameCopy.addedToCart = true;
+    } else {
+      const index = cartCopy.findIndex((cartGame) => cartGame === gameCopy);
+      cartCopy.splice(index, 1);
+      gameCopy.addedToCart = false;
+    }
     setCartItems(cartCopy);
   };
 
@@ -39,15 +36,15 @@ const GameCard = ({ game }) => {
           <button
             className="remove-from-cart"
             type="button"
-            onClick={handleRemoveFromCart}
+            onClick={() => handleAddToCart("remove")}
           >
-            Remove from cart
+            Remove
           </button>
         ) : (
           <button
             className="add-to-cart"
             type="button"
-            onClick={handleAddToCart}
+            onClick={() => handleAddToCart("add")}
           >
             Add to cart
           </button>
