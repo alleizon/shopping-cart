@@ -8,6 +8,7 @@ const Items = ({ games, filter }) => {
 
   const handlePageClick = (e) => {
     const newPage = Number(e.currentTarget.dataset.page);
+    document.documentElement.scrollTop = 0;
     setPage(newPage);
   };
 

@@ -1,4 +1,25 @@
+import { useOutletContext } from "react-router-dom";
+
 const GameCard = ({ game }) => {
+  const [cartItems, setCartItems] = useOutletContext();
+
+  const handleRemoveFromCart = () => {
+    const cartCopy = cartItems.slice();
+    const gameCopy = game;
+    const index = cartCopy.findIndex((cartGame) => cartGame === gameCopy);
+    cartCopy.splice(index, 1);
+    gameCopy.addedToCart = false;
+    setCartItems(cartCopy);
+  };
+
+  const handleAddToCart = () => {
+    const cartCopy = cartItems.slice();
+    const gameCopy = game;
+    cartCopy.push(game);
+    gameCopy.addedToCart = true;
+    setCartItems(cartCopy);
+  };
+
   return (
     <div className="item-container">
       <div className="card-img-wrapper">
@@ -11,8 +32,24 @@ const GameCard = ({ game }) => {
         />
       </div>
       <div>
-        <p>More info</p>
-        <span>add to cart</span>
+        <p>Read more</p>
+        {game.addedToCart ? (
+          <button
+            className="remove-from-cart"
+            type="button"
+            onClick={handleRemoveFromCart}
+          >
+            Remove from cart
+          </button>
+        ) : (
+          <button
+            className="add-to-cart"
+            type="button"
+            onClick={handleAddToCart}
+          >
+            Add to cart
+          </button>
+        )}
       </div>
     </div>
   );
