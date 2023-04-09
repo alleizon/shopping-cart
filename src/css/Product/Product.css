@@ -1,14 +1,18 @@
 @import url("./image-carousel.css");
+@import url("./product-info.css");
+@import url("./product-description.css");
 
 #product {
   flex: 1;
   background-color: var(--dark);
   padding: 0.5rem 0;
+  display: flex;
 }
 
 .product-container {
+  flex: 1;
   display: grid;
-  grid-template-rows: 1fr min-content;
+  grid-template-rows: 1.5fr 1fr;
   grid-template-columns: 1.5fr 1fr;
   gap: 1rem;
 }
