@@ -1,4 +1,4 @@
-import "../css/Shop.css";
+import "../css/Shop/Shop.css";
 import { useLoaderData } from "react-router-dom";
 import { useState } from "react";
 import GenreFilters from "../components/Shop/GenreFilters";

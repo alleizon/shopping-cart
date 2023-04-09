@@ -1,5 +1,5 @@
-import "../css/Product.css";
-import { useLoaderData, useOutletContext } from "react-router-dom";
+import "../css/Product/Product.css";
+import { useLoaderData } from "react-router-dom";
 import { getGameBySlug } from "../utils/games";
 import ImageCarousel from "../components/Product/ImageCarousel";
 import ProductInfo from "../components/Product/ProductInfo";
@@ -15,14 +15,13 @@ export const loader = async ({ request }) => {
 
 const Product = () => {
   const game = useLoaderData();
-  const [cartItems, setCartItems] = useOutletContext();
 
   return (
     <main id="product">
       <div className="product-container">
-        <ImageCarousel />
-        <ProductInfo />
-        <ProductDescription />
+        <ImageCarousel game={game} />
+        <ProductInfo game={game} />
+        <ProductDescription game={game} />
       </div>
     </main>
   );
