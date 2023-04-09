@@ -75,22 +75,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-#items .card-buttons > button.add-to-cart {
-  background-color: #0080005e;
-}
-
-#items .card-buttons > button.add-to-cart:hover {
-  background-color: green;
-}
-
-#items .card-buttons > button.remove-from-cart {
-  background-color: #ff000078;
-}
-
-#items .card-buttons > button.remove-from-cart:hover {
-  background-color: red;
-}
-
 @media screen and (max-width: 1400px) {
   #items {
     grid-template-columns: repeat(2, 300px);

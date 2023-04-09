@@ -50,6 +50,22 @@
   color: black;
 }
 
+button.add-to-cart {
+  background-color: #0080005e;
+}
+
+button.add-to-cart:hover {
+  background-color: green;
+}
+
+button.remove-from-cart {
+  background-color: #ff000078;
+}
+
+button.remove-from-cart:hover {
+  background-color: red;
+}
+
 @media screen and (max-width: 1600px) {
   :root {
     font-size: var(--font-lg);

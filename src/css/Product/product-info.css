@@ -1,0 +1,25 @@
+#product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#product-info > p:first-child {
+  margin-bottom: 1rem;
+  font-family: "Roboto Mono";
+  font-size: calc(1rem + 4px);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#product-info > button {
+  width: 200px;
+  height: 40px;
+  font-family: "Roboto Mono";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  color: inherit;
+  font-size: inherit;
+}
