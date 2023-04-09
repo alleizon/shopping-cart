@@ -20,6 +20,7 @@ const GameCard = ({ game }) => {
   return (
     <div className="item-container">
       <div className="card-img-wrapper">
+        <p className="card-hover">{game.name}</p>
         <img
           src={game.backgroundImage}
           alt={game.name}
