@@ -1047,4 +1047,6 @@ export const getGenres = () => {
 export const getFilteredGames = (genre) =>
   games.filter((game) => game.newGenres.includes(genre));
 
+export const getGameBySlug = (slug) => games.find((game) => game.slug === slug);
+
 export default games;
