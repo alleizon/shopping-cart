@@ -1,0 +1,43 @@
+#img-carousel > div {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-container img.active {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-container img:not(.active) {
+  display: none;
+}
+
+.carousel-panel {
+  position: absolute;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  border-radius: 20px;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.4rem 0.6rem;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.carousel-panel button {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 0px solid transparent;
+  background-color: rgb(99, 99, 99);
+  transition: all 0.2s ease-in-out;
+}
+
+.carousel-panel button.active,
+.carousel-panel button:hover {
+  background-color: rgb(170, 170, 170);
+}
