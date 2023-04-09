@@ -1,0 +1,19 @@
+#product {
+  flex: 1;
+  background-color: var(--dark);
+  gap: 1rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template-rows: 1fr min-content;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.product-container > div {
+  padding: 1rem 0.5rem;
+}
+
+#product-description {
+  grid-column: 1 / -1;
+}
