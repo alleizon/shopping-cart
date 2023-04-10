@@ -26,3 +26,14 @@
 #product-description {
   grid-column: 1 / -1;
 }
+
+@media screen and (max-width: 900px) {
+  #product {
+    height: 100%;
+  }
+
+  .product-container {
+    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: 1fr;
+  }
+}

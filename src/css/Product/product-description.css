@@ -32,3 +32,9 @@
 #product-description::-webkit-scrollbar-thumb:hover {
   background-color: #666;
 }
+
+@media screen and (max-width: 900px) {
+  #product-description {
+    margin: 0 1rem;
+  }
+}
