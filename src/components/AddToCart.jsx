@@ -31,7 +31,7 @@ const AddToCart = ({ game }) => {
       type="button"
       onClick={() => handleAddToCart("add")}
     >
-      Add to cart
+      Add to cart ${game.price}
     </button>
   );
 };

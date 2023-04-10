@@ -15,6 +15,7 @@ const games = [
     id: 0,
     slug: "grand-theft-auto-v",
     addedToCart: false,
+    price: 27.99,
   },
   {
     backgroundImage:
@@ -32,6 +33,7 @@ const games = [
     id: 1,
     slug: "the-witcher-3-wild-hunt",
     addedToCart: false,
+    price: 24.99,
   },
   {
     backgroundImage:
@@ -49,6 +51,7 @@ const games = [
     id: 2,
     slug: "portal-2",
     addedToCart: false,
+    price: 20.99,
   },
   {
     backgroundImage:
@@ -66,6 +69,7 @@ const games = [
     id: 3,
     slug: "tomb-raider",
     addedToCart: false,
+    price: 21.99,
   },
   {
     backgroundImage:
@@ -83,6 +87,7 @@ const games = [
     id: 4,
     slug: "counter-strike-global-offensive",
     addedToCart: false,
+    price: 38.99,
   },
   {
     backgroundImage:
@@ -100,6 +105,7 @@ const games = [
     id: 5,
     slug: "portal",
     addedToCart: false,
+    price: 38.99,
   },
   {
     backgroundImage:
@@ -117,6 +123,7 @@ const games = [
     id: 6,
     slug: "left-4-dead-2",
     addedToCart: false,
+    price: 44.99,
   },
   {
     backgroundImage:
@@ -134,6 +141,7 @@ const games = [
     id: 7,
     slug: "the-elder-scrolls-v-skyrim",
     addedToCart: false,
+    price: 24.99,
   },
   {
     backgroundImage:
@@ -151,6 +159,7 @@ const games = [
     id: 8,
     slug: "bioshock-infinite",
     addedToCart: false,
+    price: 34.99,
   },
   {
     backgroundImage:
@@ -168,6 +177,7 @@ const games = [
     id: 9,
     slug: "red-dead-redemption-2",
     addedToCart: false,
+    price: 31.99,
   },
   {
     backgroundImage:
@@ -185,6 +195,7 @@ const games = [
     id: 10,
     slug: "life-is-strange-episode-1-2",
     addedToCart: false,
+    price: 22.99,
   },
   {
     backgroundImage:
@@ -202,6 +213,7 @@ const games = [
     id: 11,
     slug: "borderlands-2",
     addedToCart: false,
+    price: 57.99,
   },
   {
     backgroundImage:
@@ -219,6 +231,7 @@ const games = [
     id: 12,
     slug: "half-life-2",
     addedToCart: false,
+    price: 49.99,
   },
   {
     backgroundImage:
@@ -236,6 +249,7 @@ const games = [
     id: 13,
     slug: "bioshock",
     addedToCart: false,
+    price: 34.99,
   },
   {
     backgroundImage:
@@ -253,6 +267,7 @@ const games = [
     id: 14,
     slug: "limbo",
     addedToCart: false,
+    price: 56.99,
   },
   {
     backgroundImage:
@@ -270,6 +285,7 @@ const games = [
     id: 15,
     slug: "destiny-2",
     addedToCart: false,
+    price: 41.99,
   },
   {
     backgroundImage:
@@ -287,6 +303,7 @@ const games = [
     id: 16,
     slug: "god-of-war-2",
     addedToCart: false,
+    price: 57.99,
   },
   {
     backgroundImage:
@@ -304,6 +321,7 @@ const games = [
     id: 17,
     slug: "doom",
     addedToCart: false,
+    price: 35.99,
   },
   {
     backgroundImage:
@@ -321,6 +339,7 @@ const games = [
     id: 18,
     slug: "fallout-4",
     addedToCart: false,
+    price: 47.99,
   },
   {
     backgroundImage:
@@ -338,6 +357,7 @@ const games = [
     id: 19,
     slug: "team-fortress-2",
     addedToCart: false,
+    price: 44.99,
   },
   {
     backgroundImage:
@@ -355,6 +375,7 @@ const games = [
     id: 20,
     slug: "payday-2",
     addedToCart: false,
+    price: 59.99,
   },
   {
     backgroundImage:
@@ -372,6 +393,7 @@ const games = [
     id: 21,
     slug: "horizon-zero-dawn",
     addedToCart: false,
+    price: 28.99,
   },
   {
     backgroundImage:
@@ -389,6 +411,7 @@ const games = [
     id: 22,
     slug: "grand-theft-auto-iv",
     addedToCart: false,
+    price: 57.99,
   },
   {
     backgroundImage:
@@ -406,6 +429,7 @@ const games = [
     id: 23,
     slug: "rocket-league",
     addedToCart: false,
+    price: 45.99,
   },
   {
     backgroundImage:
@@ -423,6 +447,7 @@ const games = [
     id: 24,
     slug: "dota-2",
     addedToCart: false,
+    price: 29.99,
   },
   {
     backgroundImage:
@@ -440,6 +465,7 @@ const games = [
     id: 25,
     slug: "cyberpunk-2077",
     addedToCart: false,
+    price: 31.99,
   },
   {
     backgroundImage:
@@ -457,6 +483,7 @@ const games = [
     id: 26,
     slug: "terraria",
     addedToCart: false,
+    price: 49.99,
   },
   {
     backgroundImage:
@@ -474,6 +501,7 @@ const games = [
     id: 27,
     slug: "warframe",
     addedToCart: false,
+    price: 42.99,
   },
   {
     backgroundImage:
@@ -491,6 +519,7 @@ const games = [
     id: 28,
     slug: "metro-2033",
     addedToCart: false,
+    price: 48.99,
   },
   {
     backgroundImage:
@@ -508,6 +537,7 @@ const games = [
     id: 29,
     slug: "metal-gear-solid-v-the-phantom-pain",
     addedToCart: false,
+    price: 40.99,
   },
   {
     backgroundImage:
@@ -525,6 +555,7 @@ const games = [
     id: 30,
     slug: "rise-of-the-tomb-raider",
     addedToCart: false,
+    price: 45.99,
   },
   {
     backgroundImage:
@@ -542,6 +573,7 @@ const games = [
     id: 31,
     slug: "batman-arkham-knight",
     addedToCart: false,
+    price: 29.99,
   },
   {
     backgroundImage:
@@ -559,6 +591,7 @@ const games = [
     id: 32,
     slug: "the-walking-dead",
     addedToCart: false,
+    price: 28.99,
   },
   {
     backgroundImage:
@@ -576,6 +609,7 @@ const games = [
     id: 33,
     slug: "the-witcher-2-assassins-of-kings-enhanced-edition",
     addedToCart: false,
+    price: 52.99,
   },
   {
     backgroundImage:
@@ -593,6 +627,7 @@ const games = [
     id: 34,
     slug: "half-life-2-lost-coast",
     addedToCart: false,
+    price: 28.99,
   },
   {
     backgroundImage:
@@ -610,6 +645,7 @@ const games = [
     id: 35,
     slug: "shadow-of-mordor",
     addedToCart: false,
+    price: 44.99,
   },
   {
     backgroundImage:
@@ -627,6 +663,7 @@ const games = [
     id: 36,
     slug: "grand-theft-auto-san-andreas",
     addedToCart: false,
+    price: 24.99,
   },
   {
     backgroundImage:
@@ -644,6 +681,7 @@ const games = [
     id: 37,
     slug: "the-witcher-enhanced-edition-directors-cut",
     addedToCart: false,
+    price: 31.99,
   },
   {
     backgroundImage:
@@ -661,6 +699,7 @@ const games = [
     id: 38,
     slug: "half-life-2-episode-one",
     addedToCart: false,
+    price: 31.99,
   },
   {
     backgroundImage:
@@ -678,6 +717,7 @@ const games = [
     id: 39,
     slug: "bioshock-2",
     addedToCart: false,
+    price: 22.99,
   },
   {
     backgroundImage:
@@ -695,6 +735,7 @@ const games = [
     id: 40,
     slug: "half-life-2-episode-two",
     addedToCart: false,
+    price: 22.99,
   },
   {
     backgroundImage:
@@ -712,6 +753,7 @@ const games = [
     id: 41,
     slug: "apex-legends",
     addedToCart: false,
+    price: 21.99,
   },
   {
     backgroundImage:
@@ -729,6 +771,7 @@ const games = [
     id: 42,
     slug: "hitman",
     addedToCart: false,
+    price: 25.99,
   },
   {
     backgroundImage:
@@ -746,6 +789,7 @@ const games = [
     id: 43,
     slug: "hollow-knight",
     addedToCart: false,
+    price: 56.99,
   },
   {
     backgroundImage:
@@ -763,6 +807,7 @@ const games = [
     id: 44,
     slug: "mirrors-edge",
     addedToCart: false,
+    price: 19.99,
   },
   {
     backgroundImage:
@@ -780,6 +825,7 @@ const games = [
     id: 45,
     slug: "little-nightmares",
     addedToCart: false,
+    price: 56.99,
   },
   {
     backgroundImage:
@@ -797,6 +843,7 @@ const games = [
     id: 46,
     slug: "hotline-miami",
     addedToCart: false,
+    price: 35.99,
   },
   {
     backgroundImage:
@@ -814,6 +861,7 @@ const games = [
     id: 47,
     slug: "dark-souls-iii",
     addedToCart: false,
+    price: 21.99,
   },
   {
     backgroundImage:
@@ -831,6 +879,7 @@ const games = [
     id: 48,
     slug: "outlast",
     addedToCart: false,
+    price: 43.99,
   },
   {
     backgroundImage:
@@ -848,6 +897,7 @@ const games = [
     id: 49,
     slug: "deus-ex-mankind-divided",
     addedToCart: false,
+    price: 51.99,
   },
   {
     backgroundImage:
@@ -865,6 +915,7 @@ const games = [
     id: 50,
     slug: "spec-ops-the-line",
     addedToCart: false,
+    price: 52.99,
   },
   {
     backgroundImage:
@@ -882,6 +933,7 @@ const games = [
     id: 51,
     slug: "bioshock-remastered",
     addedToCart: false,
+    price: 54.99,
   },
   {
     backgroundImage:
@@ -899,6 +951,7 @@ const games = [
     id: 52,
     slug: "marvels-spider-man",
     addedToCart: false,
+    price: 25.99,
   },
   {
     backgroundImage:
@@ -916,6 +969,7 @@ const games = [
     id: 53,
     slug: "far-cry-3",
     addedToCart: false,
+    price: 54.99,
   },
   {
     backgroundImage:
@@ -933,6 +987,7 @@ const games = [
     id: 54,
     slug: "amnesia-the-dark-descent",
     addedToCart: false,
+    price: 44.99,
   },
   {
     backgroundImage:
@@ -950,6 +1005,7 @@ const games = [
     id: 55,
     slug: "alan-wake",
     addedToCart: false,
+    price: 38.99,
   },
   {
     backgroundImage:
@@ -967,6 +1023,7 @@ const games = [
     id: 56,
     slug: "half-life-2-deathmatch",
     addedToCart: false,
+    price: 24.99,
   },
   {
     backgroundImage:
@@ -984,6 +1041,7 @@ const games = [
     id: 57,
     slug: "saints-row-the-third",
     addedToCart: false,
+    price: 39.99,
   },
   {
     backgroundImage:
@@ -1001,6 +1059,7 @@ const games = [
     id: 58,
     slug: "half-life",
     addedToCart: false,
+    price: 38.99,
   },
   {
     backgroundImage:
@@ -1018,6 +1077,7 @@ const games = [
     id: 59,
     slug: "wolfenstein-the-new-order",
     addedToCart: false,
+    price: 55.99,
   },
 ];
 
