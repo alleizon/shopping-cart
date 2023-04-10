@@ -1,6 +1,7 @@
 #product-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.5rem;
 }
 
@@ -14,6 +15,7 @@
 
 #product-info > button {
   width: 200px;
+  height: 70px;
   font-family: "Roboto Mono";
   text-transform: uppercase;
   letter-spacing: 1px;
