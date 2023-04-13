@@ -1,0 +1,14 @@
+.error-page {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 8rem;
+  align-items: center;
+  background-color: var(--dark);
+  flex: 1;
+}
+
+.error-page > h1 {
+  font-size: 1.5rem;
+}

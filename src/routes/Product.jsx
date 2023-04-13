@@ -10,6 +10,12 @@ export const loader = async ({ request }) => {
   const pathArr = url.pathname.split("/");
   const gameSlug = pathArr[pathArr.length - 1];
   const game = await getGameBySlug(gameSlug);
+  if (!game) {
+    throw new Response("", {
+      status: 404,
+      statusText: "Product not found",
+    });
+  }
   return game;
 };
 
