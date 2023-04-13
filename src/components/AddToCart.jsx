@@ -8,16 +8,14 @@ const AddToCart = ({ game }) => {
     const gameCopy = game;
     if (action === "add") {
       cartCopy.push(game);
-      gameCopy.addedToCart = true;
     } else {
       const index = cartCopy.findIndex((cartGame) => cartGame === gameCopy);
       cartCopy.splice(index, 1);
-      gameCopy.addedToCart = false;
     }
     setCartItems(cartCopy);
   };
 
-  return game.addedToCart ? (
+  return cartItems.includes(game) ? (
     <button
       className="remove-from-cart"
       type="button"

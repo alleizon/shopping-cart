@@ -14,7 +14,6 @@ const games = [
     released: "2013-09-17",
     id: 0,
     slug: "grand-theft-auto-v",
-    addedToCart: false,
     price: 27.99,
   },
   {
@@ -32,7 +31,6 @@ const games = [
     released: "2015-05-18",
     id: 1,
     slug: "the-witcher-3-wild-hunt",
-    addedToCart: false,
     price: 24.99,
   },
   {
@@ -50,7 +48,6 @@ const games = [
     released: "2011-04-18",
     id: 2,
     slug: "portal-2",
-    addedToCart: false,
     price: 20.99,
   },
   {
@@ -68,7 +65,6 @@ const games = [
     released: "2013-03-05",
     id: 3,
     slug: "tomb-raider",
-    addedToCart: false,
     price: 21.99,
   },
   {
@@ -86,7 +82,6 @@ const games = [
     released: "2012-08-21",
     id: 4,
     slug: "counter-strike-global-offensive",
-    addedToCart: false,
     price: 38.99,
   },
   {
@@ -104,7 +99,6 @@ const games = [
     released: "2007-10-09",
     id: 5,
     slug: "portal",
-    addedToCart: false,
     price: 38.99,
   },
   {
@@ -122,7 +116,6 @@ const games = [
     released: "2009-11-17",
     id: 6,
     slug: "left-4-dead-2",
-    addedToCart: false,
     price: 44.99,
   },
   {
@@ -140,7 +133,6 @@ const games = [
     released: "2011-11-11",
     id: 7,
     slug: "the-elder-scrolls-v-skyrim",
-    addedToCart: false,
     price: 24.99,
   },
   {
@@ -158,7 +150,6 @@ const games = [
     released: "2013-03-26",
     id: 8,
     slug: "bioshock-infinite",
-    addedToCart: false,
     price: 34.99,
   },
   {
@@ -176,7 +167,6 @@ const games = [
     released: "2018-10-26",
     id: 9,
     slug: "red-dead-redemption-2",
-    addedToCart: false,
     price: 31.99,
   },
   {
@@ -194,7 +184,6 @@ const games = [
     released: "2015-01-29",
     id: 10,
     slug: "life-is-strange-episode-1-2",
-    addedToCart: false,
     price: 22.99,
   },
   {
@@ -212,7 +201,6 @@ const games = [
     released: "2012-09-18",
     id: 11,
     slug: "borderlands-2",
-    addedToCart: false,
     price: 57.99,
   },
   {
@@ -230,7 +218,6 @@ const games = [
     released: "2004-11-16",
     id: 12,
     slug: "half-life-2",
-    addedToCart: false,
     price: 49.99,
   },
   {
@@ -248,7 +235,6 @@ const games = [
     released: "2007-08-21",
     id: 13,
     slug: "bioshock",
-    addedToCart: false,
     price: 34.99,
   },
   {
@@ -266,7 +252,6 @@ const games = [
     released: "2010-07-21",
     id: 14,
     slug: "limbo",
-    addedToCart: false,
     price: 56.99,
   },
   {
@@ -284,7 +269,6 @@ const games = [
     released: "2017-09-06",
     id: 15,
     slug: "destiny-2",
-    addedToCart: false,
     price: 41.99,
   },
   {
@@ -302,7 +286,6 @@ const games = [
     released: "2018-04-20",
     id: 16,
     slug: "god-of-war-2",
-    addedToCart: false,
     price: 57.99,
   },
   {
@@ -320,7 +303,6 @@ const games = [
     released: "2016-05-13",
     id: 17,
     slug: "doom",
-    addedToCart: false,
     price: 35.99,
   },
   {
@@ -338,7 +320,6 @@ const games = [
     released: "2015-11-09",
     id: 18,
     slug: "fallout-4",
-    addedToCart: false,
     price: 47.99,
   },
   {
@@ -356,7 +337,6 @@ const games = [
     released: "2007-10-10",
     id: 19,
     slug: "team-fortress-2",
-    addedToCart: false,
     price: 44.99,
   },
   {
@@ -374,7 +354,6 @@ const games = [
     released: "2013-08-13",
     id: 20,
     slug: "payday-2",
-    addedToCart: false,
     price: 59.99,
   },
   {
@@ -392,7 +371,6 @@ const games = [
     released: "2017-02-28",
     id: 21,
     slug: "horizon-zero-dawn",
-    addedToCart: false,
     price: 28.99,
   },
   {
@@ -410,7 +388,6 @@ const games = [
     released: "2008-04-29",
     id: 22,
     slug: "grand-theft-auto-iv",
-    addedToCart: false,
     price: 57.99,
   },
   {
@@ -428,7 +405,6 @@ const games = [
     released: "2015-07-07",
     id: 23,
     slug: "rocket-league",
-    addedToCart: false,
     price: 45.99,
   },
   {
@@ -446,7 +422,6 @@ const games = [
     released: "2013-07-09",
     id: 24,
     slug: "dota-2",
-    addedToCart: false,
     price: 29.99,
   },
   {
@@ -464,7 +439,6 @@ const games = [
     released: "2020-12-10",
     id: 25,
     slug: "cyberpunk-2077",
-    addedToCart: false,
     price: 31.99,
   },
   {
@@ -482,7 +456,6 @@ const games = [
     released: "2011-05-16",
     id: 26,
     slug: "terraria",
-    addedToCart: false,
     price: 49.99,
   },
   {
@@ -500,7 +473,6 @@ const games = [
     released: "2013-03-25",
     id: 27,
     slug: "warframe",
-    addedToCart: false,
     price: 42.99,
   },
   {
@@ -518,7 +490,6 @@ const games = [
     released: "2010-03-16",
     id: 28,
     slug: "metro-2033",
-    addedToCart: false,
     price: 48.99,
   },
   {
@@ -536,7 +507,6 @@ const games = [
     released: "2015-09-01",
     id: 29,
     slug: "metal-gear-solid-v-the-phantom-pain",
-    addedToCart: false,
     price: 40.99,
   },
   {
@@ -554,7 +524,6 @@ const games = [
     released: "2015-11-10",
     id: 30,
     slug: "rise-of-the-tomb-raider",
-    addedToCart: false,
     price: 45.99,
   },
   {
@@ -572,7 +541,6 @@ const games = [
     released: "2015-06-23",
     id: 31,
     slug: "batman-arkham-knight",
-    addedToCart: false,
     price: 29.99,
   },
   {
@@ -590,7 +558,6 @@ const games = [
     released: "2012-04-23",
     id: 32,
     slug: "the-walking-dead",
-    addedToCart: false,
     price: 28.99,
   },
   {
@@ -608,7 +575,6 @@ const games = [
     released: "2012-04-16",
     id: 33,
     slug: "the-witcher-2-assassins-of-kings-enhanced-edition",
-    addedToCart: false,
     price: 52.99,
   },
   {
@@ -626,7 +592,6 @@ const games = [
     released: "2005-10-27",
     id: 34,
     slug: "half-life-2-lost-coast",
-    addedToCart: false,
     price: 28.99,
   },
   {
@@ -644,7 +609,6 @@ const games = [
     released: "2014-09-30",
     id: 35,
     slug: "shadow-of-mordor",
-    addedToCart: false,
     price: 44.99,
   },
   {
@@ -662,7 +626,6 @@ const games = [
     released: "2004-10-26",
     id: 36,
     slug: "grand-theft-auto-san-andreas",
-    addedToCart: false,
     price: 24.99,
   },
   {
@@ -680,7 +643,6 @@ const games = [
     released: "2008-09-16",
     id: 37,
     slug: "the-witcher-enhanced-edition-directors-cut",
-    addedToCart: false,
     price: 31.99,
   },
   {
@@ -698,7 +660,6 @@ const games = [
     released: "2006-06-01",
     id: 38,
     slug: "half-life-2-episode-one",
-    addedToCart: false,
     price: 31.99,
   },
   {
@@ -716,7 +677,6 @@ const games = [
     released: "2010-02-09",
     id: 39,
     slug: "bioshock-2",
-    addedToCart: false,
     price: 22.99,
   },
   {
@@ -734,7 +694,6 @@ const games = [
     released: "2007-10-09",
     id: 40,
     slug: "half-life-2-episode-two",
-    addedToCart: false,
     price: 22.99,
   },
   {
@@ -752,7 +711,6 @@ const games = [
     released: "2019-02-04",
     id: 41,
     slug: "apex-legends",
-    addedToCart: false,
     price: 21.99,
   },
   {
@@ -770,7 +728,6 @@ const games = [
     released: "2016-03-11",
     id: 42,
     slug: "hitman",
-    addedToCart: false,
     price: 25.99,
   },
   {
@@ -788,7 +745,6 @@ const games = [
     released: "2017-02-23",
     id: 43,
     slug: "hollow-knight",
-    addedToCart: false,
     price: 56.99,
   },
   {
@@ -806,7 +762,6 @@ const games = [
     released: "2008-11-11",
     id: 44,
     slug: "mirrors-edge",
-    addedToCart: false,
     price: 19.99,
   },
   {
@@ -824,7 +779,6 @@ const games = [
     released: "2017-04-27",
     id: 45,
     slug: "little-nightmares",
-    addedToCart: false,
     price: 56.99,
   },
   {
@@ -842,7 +796,6 @@ const games = [
     released: "2012-10-22",
     id: 46,
     slug: "hotline-miami",
-    addedToCart: false,
     price: 35.99,
   },
   {
@@ -860,7 +813,6 @@ const games = [
     released: "2016-04-11",
     id: 47,
     slug: "dark-souls-iii",
-    addedToCart: false,
     price: 21.99,
   },
   {
@@ -878,7 +830,6 @@ const games = [
     released: "2013-09-03",
     id: 48,
     slug: "outlast",
-    addedToCart: false,
     price: 43.99,
   },
   {
@@ -896,7 +847,6 @@ const games = [
     released: "2016-08-22",
     id: 49,
     slug: "deus-ex-mankind-divided",
-    addedToCart: false,
     price: 51.99,
   },
   {
@@ -914,7 +864,6 @@ const games = [
     released: "2012-06-26",
     id: 50,
     slug: "spec-ops-the-line",
-    addedToCart: false,
     price: 52.99,
   },
   {
@@ -932,7 +881,6 @@ const games = [
     released: "2016-09-15",
     id: 51,
     slug: "bioshock-remastered",
-    addedToCart: false,
     price: 54.99,
   },
   {
@@ -950,7 +898,6 @@ const games = [
     released: "2018-09-07",
     id: 52,
     slug: "marvels-spider-man",
-    addedToCart: false,
     price: 25.99,
   },
   {
@@ -968,7 +915,6 @@ const games = [
     released: "2012-11-28",
     id: 53,
     slug: "far-cry-3",
-    addedToCart: false,
     price: 54.99,
   },
   {
@@ -986,7 +932,6 @@ const games = [
     released: "2010-09-08",
     id: 54,
     slug: "amnesia-the-dark-descent",
-    addedToCart: false,
     price: 44.99,
   },
   {
@@ -1004,7 +949,6 @@ const games = [
     released: "2010-05-14",
     id: 55,
     slug: "alan-wake",
-    addedToCart: false,
     price: 38.99,
   },
   {
@@ -1022,7 +966,6 @@ const games = [
     released: "2004-11-01",
     id: 56,
     slug: "half-life-2-deathmatch",
-    addedToCart: false,
     price: 24.99,
   },
   {
@@ -1040,7 +983,6 @@ const games = [
     released: "2011-11-14",
     id: 57,
     slug: "saints-row-the-third",
-    addedToCart: false,
     price: 39.99,
   },
   {
@@ -1058,7 +1000,6 @@ const games = [
     released: "1998-11-19",
     id: 58,
     slug: "half-life",
-    addedToCart: false,
     price: 38.99,
   },
   {
@@ -1076,7 +1017,6 @@ const games = [
     released: "2014-05-19",
     id: 59,
     slug: "wolfenstein-the-new-order",
-    addedToCart: false,
     price: 55.99,
   },
 ];

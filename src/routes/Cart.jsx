@@ -1,12 +1,13 @@
 import "../css/Cart/Cart.css";
 import { useEffect, useState } from "react";
-import { useOutletContext } from "react-router-dom";
+import { useNavigate, useOutletContext } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleMinus } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useOutletContext();
   const [total, setTotal] = useState(null);
+  const navigate = useNavigate();
 
   const handleRemoveItem = (item) => {
     const newCart = cartItems.slice();
@@ -15,8 +16,10 @@ const Cart = () => {
     setCartItems(newCart);
   };
 
-  // TODO:
-  const handleCheckout = () => {};
+  const handleCheckout = () => {
+    setCartItems([]);
+    navigate("/");
+  };
 
   useEffect(() => {
     if (cartItems.length) {
@@ -39,11 +42,11 @@ const Cart = () => {
           ))}
           <div id="checkout">
             <p>Total: ${total !== null ? total : 0}</p>
+
             <button
               type="button"
-              className="dark-button
-          "
               onClick={handleCheckout}
+              className="dark-button"
             >
               Checkout
             </button>
